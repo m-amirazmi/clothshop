@@ -1,9 +1,9 @@
 import Slider from "react-slick";
-import herobanner from "../data/herobanner.json";
 import { useNavigate } from "react-router-dom";
 import styles from "../scss/modules/herobanner.module.scss";
+import { IHeroBannerProps } from "../utils/interfaces";
 
-const HeroBanner: React.FunctionComponent = () => {
+const HeroBanner: React.FunctionComponent<IHeroBannerProps> = ({ hero }) => {
 	const navigate = useNavigate();
 
 	const settings = {
@@ -15,8 +15,8 @@ const HeroBanner: React.FunctionComponent = () => {
 	};
 
 	return (
-		<Slider {...settings} className="overflow-hidden">
-			{herobanner.map((item) => {
+		<Slider {...settings} className="overflow-hidden mb-5">
+			{hero.map((item) => {
 				return (
 					<div key={item.id} className="w-100 position-relative">
 						<img src={item.image} alt={`Hero Banner ${item.id}`} className="w-100 d-none d-md-block" />

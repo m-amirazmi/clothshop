@@ -16,3 +16,15 @@ export interface ICurrencySelectionProps {
 	color: string;
 	resetState: () => void;
 }
+
+export interface IHeroBannerProps {
+	hero: {
+		id: string;
+		image: string;
+		imageMob: string;
+		subtitle: string;
+		title: string;
+		cta: string;
+		category: string;
+	}[];
+}
