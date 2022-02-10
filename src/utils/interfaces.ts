@@ -28,3 +28,12 @@ export interface IHeroBannerProps {
 		category: string;
 	}[];
 }
+
+export interface IPromisesProps {
+	promises: {
+		id: string;
+		title: string;
+		subtitle: string;
+		icon: string;
+	}[];
+}
