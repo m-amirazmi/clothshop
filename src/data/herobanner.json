@@ -1,8 +1,8 @@
 [
 	{
 		"id": "2",
-		"image": "src/assets/images/hero/2.png",
-		"imageMob": "src/assets/images/hero/2-mob.png",
+		"image": "../assets/images/hero/2.png",
+		"imageMob": "../assets/images/hero/2-mob.png",
 		"subtitle": "Top Branded",
 		"title": "Best Pants 2022",
 		"cta": "Shop Pants Now",
@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "3",
-		"image": "src/assets/images/hero/3.png",
-		"imageMob": "src/assets/images/hero/3-mob.png",
+		"image": "../assets/images/hero/3.png",
+		"imageMob": "../assets/images/hero/3-mob.png",
 		"subtitle": "Top Branded",
 		"title": "Best Shirts 2022",
 		"cta": "Shop Shirts Now",
@@ -21,8 +21,8 @@
 	},
 	{
 		"id": "4",
-		"image": "src/assets/images/hero/4.png",
-		"imageMob": "src/assets/images/hero/4-mob.png",
+		"image": "../assets/images/hero/4.png",
+		"imageMob": "../assets/images/hero/4-mob.png",
 		"subtitle": "Top Branded",
 		"title": "Best Bags 2022",
 		"cta": "Shop Bags Now",
