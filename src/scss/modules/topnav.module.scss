@@ -33,6 +33,7 @@
 	height: calc(100vh - 90px);
 	width: 100vw;
 	position: absolute;
+	z-index: 1000;
 	top: 10.5%;
 	background-color: $accent-3-light;
 }

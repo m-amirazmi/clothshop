@@ -6,7 +6,7 @@ import { store } from "./redux/store";
 import App from "./App";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./assets/scss/custom.scss";
+import "./scss/custom.scss";
 
 ReactDOM.render(
 	<StrictMode>

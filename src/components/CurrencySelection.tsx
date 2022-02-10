@@ -1,5 +1,5 @@
 import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap";
-import styles from "../assets/scss/modules/currency-selection.module.scss";
+import styles from "../scss/modules/currency-selection.module.scss";
 import { ICurrency, ICurrencySelectionProps } from "../utils/interfaces";
 import currencies from "../data/currencies.json";
 import { useCurrency } from "../hooks/useCurrency";

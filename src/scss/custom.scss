@@ -1,9 +1,9 @@
 @import "_colors";
 @import "_fonts";
 @import "_slider";
-@import "../../../node_modules/bootstrap/scss/_functions";
-@import "../../../node_modules/bootstrap/scss/_variables";
-@import "../../../node_modules/bootstrap/scss/_utilities";
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/_utilities";
 
 $custom-theme-colors: (
 	"white": $white,
@@ -45,4 +45,4 @@ $utilities: map-merge(
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";

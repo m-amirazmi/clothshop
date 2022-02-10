@@ -4,7 +4,7 @@ import { Col, Container, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, R
 import { FiGlobe, FiLogIn } from "react-icons/fi";
 import currencies from "../data/currencies.json";
 import announcements from "../data/announcements.json";
-import styles from "../assets/scss/modules/announcement-bar.module.scss";
+import styles from "../scss/modules/announcement-bar.module.scss";
 import { ICurrency } from "../utils/interfaces";
 import { useCurrency } from "../hooks/useCurrency";
 

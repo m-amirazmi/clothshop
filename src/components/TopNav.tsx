@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FiHeart, FiLogIn, FiMenu, FiSearch, FiShoppingCart, FiX } from "react-icons/fi";
 import { Link, useLocation } from "react-router-dom";
 import { Col, Container, Navbar, Row } from "reactstrap";
-import styles from "../assets/scss/modules/topnav.module.scss";
+import styles from "../scss/modules/topnav.module.scss";
 import menu from "../data/menu.json";
 import CurrencySelection from "./CurrencySelection";
 
@@ -22,7 +22,7 @@ const TopNav: React.FunctionComponent = () => {
 						</Col>
 
 						<Col xs="6" md="3">
-							<img src="src/assets/images/logo.svg" alt="Logo" width={"100%"} />
+							<img src="/images/logo.svg" alt="Logo" width={"100%"} />
 						</Col>
 
 						<Col md="6" className="d-none d-md-block text-center">
