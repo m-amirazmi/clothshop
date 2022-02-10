@@ -9,7 +9,7 @@ const MainLayout: React.FunctionComponent<IMainLayoutProps> = (props) => {
 		<div>
 			<AnnouncementBar />
 			<TopNav />
-			<div className="container">{<Outlet />}</div>
+			<Outlet />
 		</div>
 	);
 };
