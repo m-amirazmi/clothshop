@@ -10,14 +10,12 @@ const HeroBanner: React.FunctionComponent = () => {
 		dots: true,
 		infinite: true,
 		autoplay: true,
-		speed: 2000,
-		autoplaySpeed: 5000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 	};
 
 	return (
-		<Slider {...settings}>
+		<Slider {...settings} className="overflow-hidden">
 			{herobanner.map((item) => {
 				return (
 					<div key={item.id} className="w-100 position-relative">
