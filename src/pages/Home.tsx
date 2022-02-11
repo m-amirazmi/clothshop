@@ -1,3 +1,4 @@
+import ByCategories from "../components/ByCategories";
 import HeroBanner from "../components/HeroBanner";
 import PopularProducts from "../components/PopularProducts";
 import Promises from "../components/Promises";
@@ -9,6 +10,7 @@ const Home: React.FunctionComponent = () => {
 			<HeroBanner hero={homedata.herobanner} />
 			<Promises promises={homedata.promises} />
 			<PopularProducts products={homedata.popularProducts} />
+			<ByCategories categories={homedata.shopByCategories} />
 		</>
 	);
 };

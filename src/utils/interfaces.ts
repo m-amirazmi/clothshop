@@ -59,3 +59,17 @@ export interface IProductProps {
 		image: string;
 	};
 }
+
+export interface ICategory {
+	id: string;
+	subtitle: string;
+	name: string;
+	ctaText: string;
+	image: string;
+	ctaLink: string;
+	featured: boolean;
+}
+
+export interface IByCategoriesProps {
+	categories: ICategory[];
+}

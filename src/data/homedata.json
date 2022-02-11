@@ -121,7 +121,7 @@
 			"name": "Men's Shirts Collections",
 			"ctaText": "See Collection",
 			"image": "/images/categories/shirt.png",
-			"ctaLink": "",
+			"ctaLink": "shirts",
 			"featured": true
 		},
 		{
@@ -130,7 +130,7 @@
 			"name": "Men's Shoes Collection",
 			"ctaText": "See Collection",
 			"image": "/images/categories/men_shoes.png",
-			"ctaLink": "",
+			"ctaLink": "men_shoes",
 			"featured": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"name": "Women's Bags Collection",
 			"ctaText": "See Collection",
 			"image": "/images/categories/women_bag.png",
-			"ctaLink": "",
+			"ctaLink": "women_bag",
 			"featured": false
 		},
 		{
@@ -148,7 +148,7 @@
 			"name": "Women's Shoes Collection",
 			"ctaText": "See Collection",
 			"image": "/images/categories/women_shoes.png",
-			"ctaLink": "",
+			"ctaLink": "women_shoes",
 			"featured": false
 		},
 		{
@@ -157,7 +157,7 @@
 			"name": "Backpacks Collection",
 			"ctaText": "See Collection",
 			"image": "/images/categories/backpack.png",
-			"ctaLink": "",
+			"ctaLink": "backpack",
 			"featured": false
 		}
 	]

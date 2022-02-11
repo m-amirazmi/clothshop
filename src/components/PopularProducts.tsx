@@ -8,7 +8,7 @@ const PopularProducts: React.FunctionComponent<IPopularProductsProps> = ({ produ
 			<div className="text-center mb-4">
 				<h2>Popular Products</h2>
 			</div>
-			<Row>
+			<Row className="px-2 px-md-0">
 				{products.map((item) => {
 					return (
 						<Col xs={6} md={3}>
