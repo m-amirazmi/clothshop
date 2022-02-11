@@ -13,8 +13,8 @@ const TopNav: React.FunctionComponent = () => {
 	const resetState = () => setOpenMenu(false);
 
 	return (
-		<div>
-			<Navbar color="white" expand="md" light className="border border-bottom border-accent-3-light">
+		<div style={{ position: "sticky", top: "0px", zIndex: "10" }}>
+			<Navbar color="white" light className="border border-bottom border-accent-3-light">
 				<Container>
 					<Row className="align-items-center">
 						<Col xs="1" className="d-md-none" onClick={() => setOpenMenu(!openMenu)}>

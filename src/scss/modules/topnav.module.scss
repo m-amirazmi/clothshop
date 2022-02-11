@@ -30,11 +30,11 @@
 }
 
 .menuitems {
-	height: calc(100vh - 90px);
+	height: calc(100vh - 10px);
 	width: 100vw;
 	position: absolute;
 	z-index: 1000;
-	top: 10.5%;
+	top: 48px;
 	background-color: $accent-3-light;
 }
 

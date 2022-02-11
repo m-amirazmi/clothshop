@@ -113,5 +113,52 @@
 			"isPopular": true,
 			"image": "/images/popular/women_shoes_1.png"
 		}
+	],
+	"shopByCategories": [
+		{
+			"id": "1",
+			"subtitle": "New Arrivals",
+			"name": "Men's Shirts Collections",
+			"ctaText": "See Collection",
+			"image": "/images/categories/shirt.png",
+			"ctaLink": "",
+			"featured": true
+		},
+		{
+			"id": "2",
+			"subtitle": "New Arrivals",
+			"name": "Men's Shoes Collection",
+			"ctaText": "See Collection",
+			"image": "/images/categories/men_shoes.png",
+			"ctaLink": "",
+			"featured": false
+		},
+		{
+			"id": "3",
+			"subtitle": "New Arrivals",
+			"name": "Women's Bags Collection",
+			"ctaText": "See Collection",
+			"image": "/images/categories/women_bag.png",
+			"ctaLink": "",
+			"featured": false
+		},
+		{
+			"id": "4",
+			"subtitle": "New Arrivals",
+			"name": "Women's Shoes Collection",
+			"ctaText": "See Collection",
+			"image": "/images/categories/women_shoes.png",
+			"ctaLink": "",
+			"featured": false
+		},
+		{
+			"id": "5",
+			"subtitle": "New Arrivals",
+			"name": "Backpacks Collection",
+			"ctaText": "See Collection",
+			"image": "/images/categories/backpack.png",
+			"ctaLink": "",
+			"featured": false
+		}
 	]
 }
