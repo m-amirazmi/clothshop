@@ -15,11 +15,8 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 				<img src={product.image} alt={product.name} className="w-100 rounded-3" />
 				<div className={styles.atcContainer}>
 					<div className="d-flex gap-2">
-						<button className="btn btn-white">
-							<FiMoreVertical />
-						</button>
 						<button className="btn btn-white w-100">ADD TO CART</button>
-						<button className="btn btn-white">
+						<button className="d-none d-md-none btn btn-white">
 							<FiHeart />
 						</button>
 					</div>
@@ -41,6 +38,9 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 
 			{/* TAGS */}
 			{product.discount ? <span className={`bg-white text-danger px-2 py-1 rounded-2 ${styles.tagDiscount}`}>{product.discount * 100}% OFF</span> : null}
+			<span className={`d-md-none text-accent-3 ${styles.wishlist}`}>
+				<FiHeart />
+			</span>
 		</div>
 	);
 };

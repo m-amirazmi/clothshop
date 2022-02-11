@@ -1,4 +1,5 @@
 @import "../colors";
+@import "../breakpoints";
 .container {
 	cursor: pointer;
 	position: relative;
@@ -21,6 +22,9 @@
 
 	button {
 		font-size: 14px;
+		@media screen and (max-width: $sm) {
+			font-size: 14px;
+		}
 	}
 	button:hover,
 	button:active {
@@ -34,6 +38,13 @@
 	position: absolute;
 	top: 3%;
 	left: 5%;
+}
+
+.wishlist {
+	font-size: 16px;
+	position: absolute;
+	top: 3%;
+	right: 7%;
 }
 
 @keyframes slideIn {
