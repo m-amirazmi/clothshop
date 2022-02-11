@@ -16,7 +16,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 				<div className={styles.atcContainer}>
 					<div className="d-flex gap-2">
 						<button className="btn btn-white w-100">ADD TO CART</button>
-						<button className="d-none d-md-none btn btn-white">
+						<button className="d-none d-md-block btn btn-white">
 							<FiHeart />
 						</button>
 					</div>
