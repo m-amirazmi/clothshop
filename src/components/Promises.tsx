@@ -3,11 +3,11 @@ import { IPromisesProps } from "../utils/interfaces";
 
 const Promises: React.FunctionComponent<IPromisesProps> = ({ promises }) => {
 	return (
-		<Container>
-			<Row>
+		<Container className="mb-5 pt-4">
+			<Row className="gap-5 gap-md-0">
 				{promises.map((item) => (
 					<Col xs={12} md={4} key={item.id}>
-						<div className="mb-5 text-center text-md-start d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+						<div className="text-center text-md-start d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
 							<div>
 								<img src={item.icon} alt={item.id} className="w-100" />
 							</div>

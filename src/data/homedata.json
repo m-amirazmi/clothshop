@@ -51,59 +51,67 @@
 	"popularProducts": [
 		{
 			"id": "1",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Burton Backpack Blue ",
+			"price": 259.0,
+			"discount": 0.5,
+			"isPopular": true,
+			"image": "/images/popular/backpack_0.png"
 		},
 		{
 			"id": "2",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Burton Backpack Grey",
+			"price": 259.0,
+			"discount": 0.5,
+			"isPopular": true,
+			"image": "/images/popular/backpack_1.png"
 		},
 		{
 			"id": "3",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Damein POLO Soft Orange",
+			"price": 129.0,
+			"discount": 0,
+			"isPopular": true,
+			"image": "/images/popular/polo_shirt_1.png"
 		},
 		{
 			"id": "4",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Damein POLO Soft Blue",
+			"price": 129.0,
+			"discount": 0,
+			"isPopular": true,
+			"image": "/images/popular/polo_shirt_2.png"
 		},
 		{
 			"id": "5",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Women Work Bag",
+			"price": 729.0,
+			"discount": 0.7,
+			"isPopular": true,
+			"image": "/images/popular/women_bag_1.png"
 		},
 		{
 			"id": "6",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Women Shop Bag",
+			"price": 729.0,
+			"discount": 0.7,
+			"isPopular": true,
+			"image": "/images/popular/women_bag_2.png"
 		},
 		{
 			"id": "7",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Highheels Blue One",
+			"price": 527.0,
+			"discount": 0.2,
+			"isPopular": true,
+			"image": "/images/popular/women_shoes_0.png"
 		},
 		{
 			"id": "8",
-			"name": "Nike Legend Bottle",
-			"price": 2259.0,
-			"promoPrice": 1259.0,
-			"isPopular": true
+			"name": "Highheels Zebra One",
+			"price": 527.0,
+			"discount": 0.2,
+			"isPopular": true,
+			"image": "/images/popular/women_shoes_1.png"
 		}
 	]
 }

@@ -1,12 +1,25 @@
-import * as React from "react";
+import { Col, Container, Row } from "reactstrap";
+import { IPopularProductsProps } from "../utils/interfaces";
+import Product from "./Product";
 
-interface IPopularProductsProps {}
-
-const PopularProducts: React.FunctionComponent<IPopularProductsProps> = (props) => {
+const PopularProducts: React.FunctionComponent<IPopularProductsProps> = ({ products }) => {
 	return (
-		<div>
-			<div></div>
-		</div>
+		<Container className="mb-5 pt-4">
+			<div className="text-center mb-4">
+				<h2>Popular Products</h2>
+			</div>
+			<Row>
+				{products.map((item) => {
+					return (
+						<Col xs={6} md={3}>
+							<div className="mb-4">
+								<Product product={item} />
+							</div>
+						</Col>
+					);
+				})}
+			</Row>
+		</Container>
 	);
 };
 

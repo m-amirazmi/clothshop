@@ -37,3 +37,25 @@ export interface IPromisesProps {
 		icon: string;
 	}[];
 }
+
+export interface IPopularProductsProps {
+	products: {
+		id: string;
+		name: string;
+		price: number;
+		discount: number;
+		isPopular: boolean;
+		image: string;
+	}[];
+}
+
+export interface IProductProps {
+	product: {
+		id: string;
+		name: string;
+		price: number;
+		discount: number;
+		isPopular: boolean;
+		image: string;
+	};
+}
