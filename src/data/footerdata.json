@@ -1,0 +1,34 @@
+{
+	"data": [
+		{
+			"id": "4",
+			"name": "FAQ",
+			"link": "/faq"
+		},
+		{
+			"id": "1",
+			"name": "About Us",
+			"link": "/about"
+		},
+		{
+			"id": "2",
+			"name": "Contact Us",
+			"link": "/contact"
+		},
+		{
+			"id": "3",
+			"name": "Privacy Policy",
+			"link": "/privacy-policy"
+		},
+		{
+			"id": "5",
+			"name": "Work With Us",
+			"link": "/careers"
+		},
+		{
+			"id": "6",
+			"name": "Shop",
+			"link": "/shop"
+		}
+	]
+}

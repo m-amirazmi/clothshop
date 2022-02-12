@@ -1,2 +1,47 @@
+@import "../colors";
+
 .container {
+	background-color: #fbf3f0;
+	padding: 60px 0px;
+
+	h6 {
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+
+	a,
+	p {
+		font-size: 14px;
+		display: block;
+		margin-bottom: 12px;
+		cursor: pointer;
+		text-decoration: none;
+		color: rgba(0, 0, 0, 0.6);
+	}
+
+	a:hover {
+		color: rgba(0, 0, 0, 0.4);
+	}
+}
+
+.imgContainer {
+	width: 100%;
+	display: flex;
+	img {
+		width: 25%;
+		text-align: center;
+		margin: 0px auto;
+
+		@media screen and (max-width: 579px) {
+			width: 70%;
+		}
+	}
+}
+
+.icon {
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.6);
+	&:hover {
+		color: rgba(0, 0, 0, 0.4);
+	}
 }

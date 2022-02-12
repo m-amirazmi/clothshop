@@ -111,3 +111,9 @@ export interface IFAQ {
 export interface IHomeFAQProps {
 	faqs: IFAQ[];
 }
+
+export interface IFooterItem {
+	id: string;
+	name: string;
+	link: string;
+}
