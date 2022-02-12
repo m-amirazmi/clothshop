@@ -38,7 +38,7 @@ const HomeBlogs: React.FunctionComponent<IBlogsProps> = ({ blogs }) => {
 	return (
 		<div className="mb-5" style={{ padding: "36px 0px", background: "#FFF3F3" }}>
 			<HomeSectionHeader title="Latest News">
-				<Slider {...settings} className="overflow-hidden mb-5">
+				<Slider {...settings} className="mb-5">
 					{blogs.map((item) => (
 						<div key={item.id} className="px-2">
 							<Card body className="border-0 rounded-3">

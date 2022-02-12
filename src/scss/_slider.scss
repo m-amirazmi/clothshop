@@ -3,6 +3,9 @@
 		position: absolute;
 		bottom: 12px;
 	}
+	@media screen and (max-width: 579px) {
+		overflow: hidden;
+	}
 }
 
 .slick-next {
