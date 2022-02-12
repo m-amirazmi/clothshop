@@ -38,10 +38,7 @@ const HomeIG: React.FunctionComponent<IHomeIGProps> = ({ instagrams }) => {
 
 	return (
 		<>
-			<div className={styles.logo}>
-				<FiInstagram />
-			</div>
-			<HomeSectionHeader title="Our Instagram" subtitle="See how our customers styled shoe products in their foot.">
+			<HomeSectionHeader title="Our Instagram" subtitle="See how our customers styled shoe products in their foot." icon={<FiInstagram />}>
 				<Slider {...settings} className="mb-5 px-2 px-md-0">
 					{instagrams.map((item) => (
 						<div key={item.id} className={`px-2 ${styles.imgContainer}`}>

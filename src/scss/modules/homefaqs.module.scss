@@ -1,0 +1,40 @@
+@import "../colors";
+.accordionHeader {
+	background-color: $accent-3-light;
+	padding: 20px 20px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.accordionDesc {
+	border: 1px solid $accent-3-light;
+	border-top: none;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-left-radius: none;
+	border-top-right-radius: none;
+	padding: 20px 20px;
+
+	&.open {
+		display: block;
+		animation: open 0.5s ease-in-out forwards;
+	}
+	&.close {
+		display: none;
+	}
+}
+
+@keyframes open {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -1rem, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}

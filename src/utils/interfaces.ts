@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export interface ICurrency {
 	id: string;
 	countryCode: string;
@@ -89,6 +91,7 @@ export interface IBlogsProps {
 export interface IHomeSectionHeader {
 	title: string;
 	subtitle?: string;
+	icon?: ReactElement;
 }
 
 export interface IIG {
@@ -98,4 +101,13 @@ export interface IIG {
 
 export interface IHomeIGProps {
 	instagrams: IIG[];
+}
+
+export interface IFAQ {
+	id: string;
+	title: string;
+	description: string;
+}
+export interface IHomeFAQProps {
+	faqs: IFAQ[];
 }

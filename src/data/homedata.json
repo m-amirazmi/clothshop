@@ -238,5 +238,37 @@
 			"id": "7",
 			"image": "/images/ig/7.jpg"
 		}
+	],
+	"faqs": [
+		{
+			"id": "1",
+			"title": "Is Clothshop a safe investment?",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur mauris. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Quisque in libero sed massa luctus fringilla. Pellentesque aliquet lacus laoreet augue congue, eu consequat erat varius. In mollis tellus augue, elementum cursus nibh convallis fermentum. Sed eu scelerisque mi. Aenean non placerat orci, quis aliquam augue. </p><p>Aliquam non maximus ex. Duis bibendum ipsum a dui mattis, vel pharetra velit fermentum. Praesent vitae facilisis nulla. Integer nec eleifend magna.</p>"
+		},
+		{
+			"id": "2",
+			"title": "How do I set up a crypto wallet?",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur mauris. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Quisque in libero sed massa luctus fringilla. Pellentesque aliquet lacus laoreet augue congue, eu consequat erat varius. In mollis tellus augue, elementum cursus nibh convallis fermentum. Sed eu scelerisque mi. Aenean non placerat orci, quis aliquam augue. </p><p>Aliquam non maximus ex. Duis bibendum ipsum a dui mattis, vel pharetra velit fermentum. Praesent vitae facilisis nulla. Integer nec eleifend magna.</p>"
+		},
+		{
+			"id": "3",
+			"title": "Where and how do I buy Clothshop?",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur mauris. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Quisque in libero sed massa luctus fringilla. Pellentesque aliquet lacus laoreet augue congue, eu consequat erat varius. In mollis tellus augue, elementum cursus nibh convallis fermentum. Sed eu scelerisque mi. Aenean non placerat orci, quis aliquam augue. </p><p>Aliquam non maximus ex. Duis bibendum ipsum a dui mattis, vel pharetra velit fermentum. Praesent vitae facilisis nulla. Integer nec eleifend magna.</p>"
+		},
+		{
+			"id": "4",
+			"title": "What often will results be reported?",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur mauris. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Quisque in libero sed massa luctus fringilla. Pellentesque aliquet lacus laoreet augue congue, eu consequat erat varius. In mollis tellus augue, elementum cursus nibh convallis fermentum. Sed eu scelerisque mi. Aenean non placerat orci, quis aliquam augue. </p><p>Aliquam non maximus ex. Duis bibendum ipsum a dui mattis, vel pharetra velit fermentum. Praesent vitae facilisis nulla. Integer nec eleifend magna.</p>"
+		},
+		{
+			"id": "5",
+			"title": "How can I get support?",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur mauris. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Quisque in libero sed massa luctus fringilla. Pellentesque aliquet lacus laoreet augue congue, eu consequat erat varius. In mollis tellus augue, elementum cursus nibh convallis fermentum. Sed eu scelerisque mi. Aenean non placerat orci, quis aliquam augue. </p><p>Aliquam non maximus ex. Duis bibendum ipsum a dui mattis, vel pharetra velit fermentum. Praesent vitae facilisis nulla. Integer nec eleifend magna.</p>"
+		},
+		{
+			"id": "6",
+			"title": "Is Axion available on a major Product exchange?",
+			"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur mauris. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Quisque in libero sed massa luctus fringilla. Pellentesque aliquet lacus laoreet augue congue, eu consequat erat varius. In mollis tellus augue, elementum cursus nibh convallis fermentum. Sed eu scelerisque mi. Aenean non placerat orci, quis aliquam augue. </p><p>Aliquam non maximus ex. Duis bibendum ipsum a dui mattis, vel pharetra velit fermentum. Praesent vitae facilisis nulla. Integer nec eleifend magna.</p>"
+		}
 	]
 }
