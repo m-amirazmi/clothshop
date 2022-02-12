@@ -45,4 +45,5 @@ $utilities: map-merge(
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
+@import "_form";
 @import "../../node_modules/bootstrap/scss/bootstrap";

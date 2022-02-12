@@ -3,6 +3,7 @@ import HomeByCategories from "../components/HomeByCategories";
 import HomeFAQ from "../components/HomeFAQ";
 import HomeHeroBanner from "../components/HomeHeroBanner";
 import HomeIG from "../components/HomeIG";
+import HomeNewsLetter from "../components/HomeNewsletter";
 import HomePopularProducts from "../components/HomePopularProducts";
 import HomePromises from "../components/HomePromises";
 import homedata from "../data/homedata.json";
@@ -17,6 +18,7 @@ const Home: React.FunctionComponent = () => {
 			<HomeBlogs blogs={homedata.blogs} />
 			<HomeIG instagrams={homedata.instagrams} />
 			<HomeFAQ faqs={homedata.faqs} />
+			<HomeNewsLetter />
 		</>
 	);
 };
