@@ -1,7 +1,6 @@
-import { FiChevronRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { Button, Card, CardBody, CardSubtitle, CardText } from "reactstrap";
+import { Card } from "reactstrap";
 import { IBlogsProps } from "../utils/interfaces";
 import HomeSectionHeader from "./HomeSectionHeader";
 
@@ -29,8 +28,8 @@ const HomeBlogs: React.FunctionComponent<IBlogsProps> = ({ blogs }) => {
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
+					slidesToShow: 1,
+					slidesToScroll: 1,
 				},
 			},
 		],
@@ -45,7 +44,7 @@ const HomeBlogs: React.FunctionComponent<IBlogsProps> = ({ blogs }) => {
 								<img src={item.image} alt={item.title} className="rounded-3" />
 								<div className="mt-3">
 									<small style={{ color: "rgba(0,0,0,0.6)" }}>{new Date(item.date).toLocaleDateString("en-MY", { year: "numeric", month: "long", day: "numeric" })}</small>
-									<p className="mt-2">{item.title}</p>
+									<p className="mt-2">{item.title.substring(0, 60)}...</p>
 									<Link to={item.ctaLink} className="text-accent-3" style={{ fontSize: "14px" }}>
 										Read More
 									</Link>
