@@ -1,0 +1,38 @@
+@import "../colors";
+
+.logo {
+	font-size: 48px;
+	text-align: center;
+}
+
+.overlay {
+	position: absolute;
+	border-radius: 8px;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(247, 106, 106, 0.2);
+	top: 0px;
+	font-size: 52px;
+	color: $accent-3;
+}
+
+.imgContainer {
+	cursor: pointer;
+	&:hover .overlay {
+		display: flex;
+		animation: slideIn 0.25s 1 linear forwards;
+	}
+}
+
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

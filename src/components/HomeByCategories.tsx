@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import { IByCategoriesProps, ICategory } from "../utils/interfaces";
-import styles from "../scss/modules/bycategories.module.scss";
+import styles from "../scss/modules/homebycategories.module.scss";
 import HomeSectionHeader from "./HomeSectionHeader";
 
 const HomeByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categories }) => {

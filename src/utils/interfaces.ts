@@ -88,4 +88,14 @@ export interface IBlogsProps {
 
 export interface IHomeSectionHeader {
 	title: string;
+	subtitle?: string;
+}
+
+export interface IIG {
+	id: string;
+	image: string;
+}
+
+export interface IHomeIGProps {
+	instagrams: IIG[];
 }

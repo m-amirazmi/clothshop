@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import { useNavigate } from "react-router-dom";
-import styles from "../scss/modules/herobanner.module.scss";
+import styles from "../scss/modules/homeherobanner.module.scss";
 import { IHeroBannerProps } from "../utils/interfaces";
 
 const HomeHeroBanner: React.FunctionComponent<IHeroBannerProps> = ({ hero }) => {

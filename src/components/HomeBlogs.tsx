@@ -36,7 +36,7 @@ const HomeBlogs: React.FunctionComponent<IBlogsProps> = ({ blogs }) => {
 		],
 	};
 	return (
-		<div className="mb-5" style={{ padding: "36px 0px", background: "#FFF3F3" }}>
+		<div className="px-2 px-md-0 mb-5" style={{ padding: "36px 0px", background: "#FFF3F3" }}>
 			<HomeSectionHeader title="Latest News">
 				<Slider {...settings} className="mb-5">
 					{blogs.map((item) => (

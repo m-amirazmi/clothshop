@@ -204,5 +204,39 @@
 			"title": "Nulla dui diam, finibus quis neque sed, porttitor ultricies libero.",
 			"ctaLink": "blogs/nulla-dui-diam"
 		}
+	],
+	"instagrams": [
+		{
+			"id": "1",
+			"image": "/images/ig/1.jpg"
+		},
+		{
+			"id": "2",
+			"image": "/images/ig/2.jpg"
+		},
+		{
+			"id": "3",
+			"image": "/images/ig/3.jpg"
+		},
+		{
+			"id": "4",
+			"image": "/images/ig/4.jpg"
+		},
+		{
+			"id": "5",
+			"image": "/images/ig/5.jpg"
+		},
+		{
+			"id": "6",
+			"image": "/images/ig/6.jpg"
+		},
+		{
+			"id": "8",
+			"image": "/images/ig/8.jpg"
+		},
+		{
+			"id": "7",
+			"image": "/images/ig/7.jpg"
+		}
 	]
 }
