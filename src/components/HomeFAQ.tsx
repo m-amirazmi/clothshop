@@ -16,7 +16,7 @@ const HomeFAQ: React.FunctionComponent<IHomeFAQProps> = ({ faqs }) => {
 
 	return (
 		<HomeSectionHeader title="Frequently Asked Question" subtitle="All your questions about Clothshop answered">
-			<Row>
+			<Row className="px-2 px-md-0">
 				{faqs.map((item) => (
 					<Col key={item.id} xs={12} md={6}>
 						<div className={`py-1 py-md-2 ${styles.accordionContainer}`}>

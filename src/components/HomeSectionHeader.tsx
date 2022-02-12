@@ -8,7 +8,7 @@ const HomeSectionHeader: React.FunctionComponent<IHomeSectionHeader> = ({ title,
 			{icon && <div className={styles.logo}>{icon}</div>}
 			<div className="text-center mb-4">
 				<h2>{title}</h2>
-				{subtitle && <p className="mt-3">{subtitle}</p>}
+				{subtitle && <p className={styles.subtitle}>{subtitle}</p>}
 			</div>
 			{children}
 		</Container>
