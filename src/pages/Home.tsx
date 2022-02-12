@@ -2,6 +2,7 @@ import HomeBlogs from "../components/HomeBlogs";
 import HomeByCategories from "../components/HomeByCategories";
 import HomeFAQ from "../components/HomeFAQ";
 import HomeHeroBanner from "../components/HomeHeroBanner";
+import HomeIcons from "../components/HomeIcons";
 import HomeIG from "../components/HomeIG";
 import HomeNewsLetter from "../components/HomeNewsletter";
 import HomePopularProducts from "../components/HomePopularProducts";
@@ -19,6 +20,7 @@ const Home: React.FunctionComponent = () => {
 			<HomeIG instagrams={homedata.instagrams} />
 			<HomeFAQ faqs={homedata.faqs} />
 			<HomeNewsLetter />
+			<HomeIcons />
 		</>
 	);
 };
