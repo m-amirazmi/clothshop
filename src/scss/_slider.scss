@@ -4,3 +4,22 @@
 		bottom: 12px;
 	}
 }
+
+.slick-next {
+	right: -24px;
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	display: none;
+}
+.slick-prev {
+	left: -24px;
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	display: none;
+}
+.slick-next:before,
+.slick-prev:before {
+	display: none;
+}

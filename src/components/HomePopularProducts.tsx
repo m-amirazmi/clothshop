@@ -1,13 +1,11 @@
 import { Col, Container, Row } from "reactstrap";
 import { IPopularProductsProps } from "../utils/interfaces";
+import HomeSectionHeader from "./HomeSectionHeader";
 import Product from "./Product";
 
-const PopularProducts: React.FunctionComponent<IPopularProductsProps> = ({ products }) => {
+const HomePopularProducts: React.FunctionComponent<IPopularProductsProps> = ({ products }) => {
 	return (
-		<Container className="mb-5 pt-4">
-			<div className="text-center mb-4">
-				<h2>Popular Products</h2>
-			</div>
+		<HomeSectionHeader title="Popular Products">
 			<Row className="px-2 px-md-0">
 				{products.map((item) => {
 					return (
@@ -19,8 +17,8 @@ const PopularProducts: React.FunctionComponent<IPopularProductsProps> = ({ produ
 					);
 				})}
 			</Row>
-		</Container>
+		</HomeSectionHeader>
 	);
 };
 
-export default PopularProducts;
+export default HomePopularProducts;

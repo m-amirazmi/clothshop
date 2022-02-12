@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import { IByCategoriesProps, ICategory } from "../utils/interfaces";
 import styles from "../scss/modules/bycategories.module.scss";
+import HomeSectionHeader from "./HomeSectionHeader";
 
-const ByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categories }) => {
+const HomeByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categories }) => {
 	const [featured, setFeatured] = useState<ICategory[]>();
 	const [nonFeatured, setNonFeatured] = useState<ICategory[]>();
 
@@ -101,14 +102,11 @@ const ByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categories 
 	);
 
 	return (
-		<Container className="mb-5 pt-4">
-			<div className="text-center mb-4">
-				<h2>Shop By Category</h2>
-			</div>
+		<HomeSectionHeader title="Shop By Category">
 			{renderWeb()}
 			{renderMob()}
-		</Container>
+		</HomeSectionHeader>
 	);
 };
 
-export default ByCategories;
+export default HomeByCategories;

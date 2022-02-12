@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "../scss/modules/herobanner.module.scss";
 import { IHeroBannerProps } from "../utils/interfaces";
 
-const HeroBanner: React.FunctionComponent<IHeroBannerProps> = ({ hero }) => {
+const HomeHeroBanner: React.FunctionComponent<IHeroBannerProps> = ({ hero }) => {
 	const navigate = useNavigate();
 
 	const settings = {
@@ -35,4 +35,4 @@ const HeroBanner: React.FunctionComponent<IHeroBannerProps> = ({ hero }) => {
 	);
 };
 
-export default HeroBanner;
+export default HomeHeroBanner;

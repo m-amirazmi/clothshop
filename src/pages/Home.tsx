@@ -1,16 +1,18 @@
-import ByCategories from "../components/ByCategories";
-import HeroBanner from "../components/HeroBanner";
-import PopularProducts from "../components/PopularProducts";
-import Promises from "../components/Promises";
+import HomeBlogs from "../components/HomeBlogs";
+import HomeByCategories from "../components/HomeByCategories";
+import HomeHeroBanner from "../components/HomeHeroBanner";
+import HomePopularProducts from "../components/HomePopularProducts";
+import HomePromises from "../components/HomePromises";
 import homedata from "../data/homedata.json";
 
 const Home: React.FunctionComponent = () => {
 	return (
 		<>
-			<HeroBanner hero={homedata.herobanner} />
-			<Promises promises={homedata.promises} />
-			<PopularProducts products={homedata.popularProducts} />
-			<ByCategories categories={homedata.shopByCategories} />
+			<HomeHeroBanner hero={homedata.herobanner} />
+			<HomePromises promises={homedata.promises} />
+			<HomePopularProducts products={homedata.popularProducts} />
+			<HomeByCategories categories={homedata.shopByCategories} />
+			<HomeBlogs blogs={homedata.blogs} />
 		</>
 	);
 };

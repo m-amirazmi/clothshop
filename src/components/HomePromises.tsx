@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "reactstrap";
 import { IPromisesProps } from "../utils/interfaces";
 
-const Promises: React.FunctionComponent<IPromisesProps> = ({ promises }) => {
+const HomePromises: React.FunctionComponent<IPromisesProps> = ({ promises }) => {
 	return (
 		<Container className="mb-5 pt-4">
 			<Row className="gap-5 gap-md-0">
@@ -27,4 +27,4 @@ const Promises: React.FunctionComponent<IPromisesProps> = ({ promises }) => {
 	);
 };
 
-export default Promises;
+export default HomePromises;

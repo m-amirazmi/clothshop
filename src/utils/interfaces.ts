@@ -73,3 +73,19 @@ export interface ICategory {
 export interface IByCategoriesProps {
 	categories: ICategory[];
 }
+
+export interface IBlog {
+	id: string;
+	image: string;
+	date: number;
+	title: string;
+	ctaLink: string;
+}
+
+export interface IBlogsProps {
+	blogs: IBlog[];
+}
+
+export interface IHomeSectionHeader {
+	title: string;
+}
