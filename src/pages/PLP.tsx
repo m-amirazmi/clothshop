@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "reactstrap";
 import PLPListing from "../components/PLPListing";
-import Product from "../components/Product";
+import PLPListingFilter from "../components/PLPListingFilter";
 import { products } from "../utils/helpers";
 
 interface IPLPProps {}
@@ -11,13 +11,13 @@ const PLP: React.FunctionComponent<IPLPProps> = (props) => {
 			{/* Listing */}
 			<Container className="mt-5">
 				<Row className="px-2 px-md-0">
-					<Col md={9}>
+					<Col md={10}>
 						<PLPListing products={products} />
 					</Col>
 
 					{/* This is sidebar */}
-					<Col md={3}>
-						<p>This is sidebar</p>
+					<Col md={2}>
+						<PLPListingFilter />
 					</Col>
 				</Row>
 			</Container>
