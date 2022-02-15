@@ -51,15 +51,17 @@ export interface IPopularProductsProps {
 	}[];
 }
 
+export interface IProduct {
+	id: string | number;
+	name: string;
+	price: number;
+	discount: number;
+	isPopular: boolean;
+	image: string;
+}
+
 export interface IProductProps {
-	product: {
-		id: string;
-		name: string;
-		price: number;
-		discount: number;
-		isPopular: boolean;
-		image: string;
-	};
+	product: IProduct;
 }
 
 export interface ICategory {
@@ -116,4 +118,8 @@ export interface IFooterItem {
 	id: string;
 	name: string;
 	link: string;
+}
+
+export interface IPLPListingProps {
+	products: IProduct[];
 }
