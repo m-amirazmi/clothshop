@@ -58,6 +58,7 @@ export interface IProduct {
 	discount: number;
 	isPopular: boolean;
 	image: string;
+	rating: number;
 }
 
 export interface IProductProps {
@@ -137,4 +138,8 @@ export interface IPLPListingSortProps {
 			| undefined
 		>
 	>;
+}
+
+export interface ProductIRatingProps {
+	rating: number;
 }

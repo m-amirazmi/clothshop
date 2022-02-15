@@ -48,7 +48,7 @@
 		"rating": 4.5,
 		"id": "4"
 	},
-	{ "name": "Nikey One Backpack", "price": 129.9, "discount": 0.2, "brand": "Nikey", "image": "backpack_13.png", "quantity": 1, "isPopular": true, "category": "backpack", "rating": 4.7, "id": "5" },
+	{ "name": "Nikey One Backpack", "price": 129.9, "discount": 0.2, "brand": "Nikey", "image": "backpack_13.png", "quantity": 1, "isPopular": true, "category": "backpack", "rating": 4, "id": "5" },
 	{
 		"name": "Nikey Two Backpack",
 		"price": 139.9,
@@ -58,7 +58,7 @@
 		"quantity": 16,
 		"isPopular": true,
 		"category": "backpack",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "6"
 	},
 	{
@@ -70,7 +70,7 @@
 		"quantity": 31,
 		"isPopular": true,
 		"category": "backpack",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "7"
 	},
 	{
@@ -82,7 +82,7 @@
 		"quantity": 46,
 		"isPopular": true,
 		"category": "backpack",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "8"
 	},
 	{
@@ -94,7 +94,7 @@
 		"quantity": 61,
 		"isPopular": true,
 		"category": "backpack",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "9"
 	},
 	{
@@ -106,7 +106,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "10"
 	},
 	{
@@ -118,7 +118,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "11"
 	},
 	{
@@ -130,7 +130,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "12"
 	},
 	{
@@ -142,7 +142,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "13"
 	},
 	{
@@ -154,7 +154,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "14"
 	},
 	{
@@ -166,7 +166,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "15"
 	},
 	{
@@ -178,7 +178,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "16"
 	},
 	{
@@ -190,7 +190,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "17"
 	},
 	{
@@ -202,7 +202,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "18"
 	},
 	{
@@ -214,7 +214,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "backpack",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "19"
 	},
 	{
@@ -337,11 +337,11 @@
 		"rating": 4.3,
 		"id": "29"
 	},
-	{ "name": "HSI One Backpack", "price": 129.9, "discount": 0, "brand": "HSI", "image": "backpack_36.png", "quantity": 1, "isPopular": false, "category": "backpack", "rating": 4.7, "id": "30" },
-	{ "name": "HSI Two Backpack", "price": 139.9, "discount": 0, "brand": "HSI", "image": "backpack_37.png", "quantity": 16, "isPopular": false, "category": "backpack", "rating": 4.7, "id": "31" },
-	{ "name": "HSI Three Backpack", "price": 149.9, "discount": 0, "brand": "HSI", "image": "backpack_38.png", "quantity": 31, "isPopular": false, "category": "backpack", "rating": 4.7, "id": "32" },
-	{ "name": "HSI Four Backpack", "price": 159.9, "discount": 0, "brand": "HSI", "image": "backpack_39.png", "quantity": 46, "isPopular": false, "category": "backpack", "rating": 4.7, "id": "33" },
-	{ "name": "HSI Five Backpack", "price": 169.9, "discount": 0, "brand": "HSI", "image": "backpack_4.png", "quantity": 61, "isPopular": false, "category": "backpack", "rating": 4.7, "id": "34" },
+	{ "name": "HSI One Backpack", "price": 129.9, "discount": 0, "brand": "HSI", "image": "backpack_36.png", "quantity": 1, "isPopular": false, "category": "backpack", "rating": 4, "id": "30" },
+	{ "name": "HSI Two Backpack", "price": 139.9, "discount": 0, "brand": "HSI", "image": "backpack_37.png", "quantity": 16, "isPopular": false, "category": "backpack", "rating": 4, "id": "31" },
+	{ "name": "HSI Three Backpack", "price": 149.9, "discount": 0, "brand": "HSI", "image": "backpack_38.png", "quantity": 31, "isPopular": false, "category": "backpack", "rating": 4, "id": "32" },
+	{ "name": "HSI Four Backpack", "price": 159.9, "discount": 0, "brand": "HSI", "image": "backpack_39.png", "quantity": 46, "isPopular": false, "category": "backpack", "rating": 4, "id": "33" },
+	{ "name": "HSI Five Backpack", "price": 169.9, "discount": 0, "brand": "HSI", "image": "backpack_4.png", "quantity": 61, "isPopular": false, "category": "backpack", "rating": 4, "id": "34" },
 	{
 		"name": "Vintage One Backpack",
 		"price": 129.9,
@@ -476,11 +476,11 @@
 	},
 	{ "name": "Aditas Four Shirt", "price": 159.9, "discount": 0, "brand": "Aditas", "image": "polo_shirt_11.png", "quantity": 46, "isPopular": false, "category": "shirt", "rating": 4.5, "id": "57" },
 	{ "name": "Aditas Five Shirt", "price": 169.9, "discount": 0, "brand": "Aditas", "image": "polo_shirt_12.png", "quantity": 61, "isPopular": false, "category": "shirt", "rating": 4.5, "id": "58" },
-	{ "name": "Nikey One Shirt", "price": 129.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_13.png", "quantity": 1, "isPopular": true, "category": "shirt", "rating": 4.7, "id": "59" },
-	{ "name": "Nikey Two Shirt", "price": 139.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_14.png", "quantity": 16, "isPopular": true, "category": "shirt", "rating": 4.7, "id": "60" },
-	{ "name": "Nikey Three Shirt", "price": 149.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_15.png", "quantity": 31, "isPopular": true, "category": "shirt", "rating": 4.7, "id": "61" },
-	{ "name": "Nikey Four Shirt", "price": 159.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_16.png", "quantity": 46, "isPopular": true, "category": "shirt", "rating": 4.7, "id": "62" },
-	{ "name": "Nikey Five Shirt", "price": 169.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_17.png", "quantity": 61, "isPopular": true, "category": "shirt", "rating": 4.7, "id": "63" },
+	{ "name": "Nikey One Shirt", "price": 129.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_13.png", "quantity": 1, "isPopular": true, "category": "shirt", "rating": 4, "id": "59" },
+	{ "name": "Nikey Two Shirt", "price": 139.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_14.png", "quantity": 16, "isPopular": true, "category": "shirt", "rating": 4, "id": "60" },
+	{ "name": "Nikey Three Shirt", "price": 149.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_15.png", "quantity": 31, "isPopular": true, "category": "shirt", "rating": 4, "id": "61" },
+	{ "name": "Nikey Four Shirt", "price": 159.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_16.png", "quantity": 46, "isPopular": true, "category": "shirt", "rating": 4, "id": "62" },
+	{ "name": "Nikey Five Shirt", "price": 169.9, "discount": 0.2, "brand": "Nikey", "image": "polo_shirt_17.png", "quantity": 61, "isPopular": true, "category": "shirt", "rating": 4, "id": "63" },
 	{
 		"name": "Under Umour One Shirt",
 		"price": 129.9,
@@ -490,7 +490,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "shirt",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "64"
 	},
 	{
@@ -502,7 +502,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "shirt",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "65"
 	},
 	{
@@ -514,7 +514,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "shirt",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "66"
 	},
 	{
@@ -526,7 +526,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "shirt",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "67"
 	},
 	{
@@ -538,11 +538,11 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "shirt",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "68"
 	},
-	{ "name": "Oatley One Shirt", "price": 129.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_22.png", "quantity": 1, "isPopular": false, "category": "shirt", "rating": 4.2, "id": "69" },
-	{ "name": "Oatley Two Shirt", "price": 139.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_23.png", "quantity": 16, "isPopular": false, "category": "shirt", "rating": 4.2, "id": "70" },
+	{ "name": "Oatley One Shirt", "price": 129.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_22.png", "quantity": 1, "isPopular": false, "category": "shirt", "rating": 3.5, "id": "69" },
+	{ "name": "Oatley Two Shirt", "price": 139.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_23.png", "quantity": 16, "isPopular": false, "category": "shirt", "rating": 3.5, "id": "70" },
 	{
 		"name": "Oatley Three Shirt",
 		"price": 149.9,
@@ -552,11 +552,11 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "shirt",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "71"
 	},
-	{ "name": "Oatley Four Shirt", "price": 159.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_25.png", "quantity": 46, "isPopular": false, "category": "shirt", "rating": 4.2, "id": "72" },
-	{ "name": "Oatley Five Shirt", "price": 169.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_26.png", "quantity": 61, "isPopular": false, "category": "shirt", "rating": 4.2, "id": "73" },
+	{ "name": "Oatley Four Shirt", "price": 159.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_25.png", "quantity": 46, "isPopular": false, "category": "shirt", "rating": 3.5, "id": "72" },
+	{ "name": "Oatley Five Shirt", "price": 169.9, "discount": 0, "brand": "Oatley", "image": "polo_shirt_26.png", "quantity": 61, "isPopular": false, "category": "shirt", "rating": 3.5, "id": "73" },
 	{ "name": "Viono One Shirt", "price": 129.9, "discount": 0.02, "brand": "Viono", "image": "polo_shirt_27.png", "quantity": 1, "isPopular": false, "category": "shirt", "rating": 4, "id": "74" },
 	{ "name": "Viono Two Shirt", "price": 139.9, "discount": 0.02, "brand": "Viono", "image": "polo_shirt_28.png", "quantity": 16, "isPopular": false, "category": "shirt", "rating": 4, "id": "75" },
 	{ "name": "Viono Three Shirt", "price": 149.9, "discount": 0.02, "brand": "Viono", "image": "polo_shirt_29.png", "quantity": 31, "isPopular": false, "category": "shirt", "rating": 4, "id": "76" },
@@ -622,11 +622,11 @@
 		"rating": 4.3,
 		"id": "83"
 	},
-	{ "name": "HSI One Shirt", "price": 129.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_4.png", "quantity": 1, "isPopular": false, "category": "shirt", "rating": 4.7, "id": "84" },
-	{ "name": "HSI Two Shirt", "price": 139.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_5.png", "quantity": 16, "isPopular": false, "category": "shirt", "rating": 4.7, "id": "85" },
-	{ "name": "HSI Three Shirt", "price": 149.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_6.png", "quantity": 31, "isPopular": false, "category": "shirt", "rating": 4.7, "id": "86" },
-	{ "name": "HSI Four Shirt", "price": 159.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_7.png", "quantity": 46, "isPopular": false, "category": "shirt", "rating": 4.7, "id": "87" },
-	{ "name": "HSI Five Shirt", "price": 169.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_8.png", "quantity": 61, "isPopular": false, "category": "shirt", "rating": 4.7, "id": "88" },
+	{ "name": "HSI One Shirt", "price": 129.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_4.png", "quantity": 1, "isPopular": false, "category": "shirt", "rating": 4, "id": "84" },
+	{ "name": "HSI Two Shirt", "price": 139.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_5.png", "quantity": 16, "isPopular": false, "category": "shirt", "rating": 4, "id": "85" },
+	{ "name": "HSI Three Shirt", "price": 149.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_6.png", "quantity": 31, "isPopular": false, "category": "shirt", "rating": 4, "id": "86" },
+	{ "name": "HSI Four Shirt", "price": 159.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_7.png", "quantity": 46, "isPopular": false, "category": "shirt", "rating": 4, "id": "87" },
+	{ "name": "HSI Five Shirt", "price": 169.9, "discount": 0, "brand": "HSI", "image": "polo_shirt_8.png", "quantity": 61, "isPopular": false, "category": "shirt", "rating": 4, "id": "88" },
 	{ "name": "Vintage One Shirt", "price": 129.9, "discount": 0, "brand": "Vintage", "image": "polo_shirt_9.png", "quantity": 1, "isPopular": false, "category": "shirt", "rating": 4.5, "id": "89" },
 	{
 		"name": "Aditas One Women Bag",
@@ -697,7 +697,7 @@
 		"quantity": 1,
 		"isPopular": true,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "95"
 	},
 	{
@@ -709,7 +709,7 @@
 		"quantity": 16,
 		"isPopular": true,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "96"
 	},
 	{
@@ -721,7 +721,7 @@
 		"quantity": 31,
 		"isPopular": true,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "97"
 	},
 	{
@@ -733,7 +733,7 @@
 		"quantity": 46,
 		"isPopular": true,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "98"
 	},
 	{
@@ -745,7 +745,7 @@
 		"quantity": 61,
 		"isPopular": true,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "99"
 	},
 	{
@@ -757,7 +757,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "100"
 	},
 	{
@@ -769,7 +769,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "101"
 	},
 	{
@@ -781,7 +781,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "102"
 	},
 	{
@@ -793,7 +793,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "103"
 	},
 	{
@@ -805,7 +805,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "104"
 	},
 	{
@@ -817,7 +817,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "105"
 	},
 	{
@@ -829,7 +829,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "106"
 	},
 	{
@@ -841,7 +841,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "107"
 	},
 	{
@@ -853,7 +853,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "108"
 	},
 	{
@@ -865,7 +865,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "109"
 	},
 	{
@@ -988,8 +988,8 @@
 		"rating": 4.3,
 		"id": "119"
 	},
-	{ "name": "HSI One Women Bag", "price": 129.9, "discount": 0, "brand": "HSI", "image": "women_bag_5.png", "quantity": 1, "isPopular": false, "category": "women bag", "rating": 4.7, "id": "120" },
-	{ "name": "HSI Two Women Bag", "price": 139.9, "discount": 0, "brand": "HSI", "image": "women_bag_6.png", "quantity": 16, "isPopular": false, "category": "women bag", "rating": 4.7, "id": "121" },
+	{ "name": "HSI One Women Bag", "price": 129.9, "discount": 0, "brand": "HSI", "image": "women_bag_5.png", "quantity": 1, "isPopular": false, "category": "women bag", "rating": 4, "id": "120" },
+	{ "name": "HSI Two Women Bag", "price": 139.9, "discount": 0, "brand": "HSI", "image": "women_bag_6.png", "quantity": 16, "isPopular": false, "category": "women bag", "rating": 4, "id": "121" },
 	{
 		"name": "HSI Three Women Bag",
 		"price": 149.9,
@@ -999,7 +999,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "122"
 	},
 	{
@@ -1011,7 +1011,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "123"
 	},
 	{
@@ -1023,7 +1023,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "women bag",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "124"
 	},
 	{
@@ -1095,7 +1095,7 @@
 		"quantity": 1,
 		"isPopular": true,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "130"
 	},
 	{
@@ -1107,7 +1107,7 @@
 		"quantity": 16,
 		"isPopular": true,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "131"
 	},
 	{
@@ -1119,7 +1119,7 @@
 		"quantity": 31,
 		"isPopular": true,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "132"
 	},
 	{
@@ -1131,7 +1131,7 @@
 		"quantity": 46,
 		"isPopular": true,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "133"
 	},
 	{
@@ -1143,7 +1143,7 @@
 		"quantity": 61,
 		"isPopular": true,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "134"
 	},
 	{
@@ -1155,7 +1155,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "135"
 	},
 	{
@@ -1167,7 +1167,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "136"
 	},
 	{
@@ -1179,7 +1179,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "137"
 	},
 	{
@@ -1191,7 +1191,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "138"
 	},
 	{
@@ -1203,7 +1203,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "139"
 	},
 	{
@@ -1215,7 +1215,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "140"
 	},
 	{
@@ -1227,7 +1227,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "141"
 	},
 	{
@@ -1239,7 +1239,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "142"
 	},
 	{
@@ -1251,7 +1251,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "143"
 	},
 	{
@@ -1263,7 +1263,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.2,
+		"rating": 3.5,
 		"id": "144"
 	},
 	{
@@ -1395,7 +1395,7 @@
 		"quantity": 1,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "155"
 	},
 	{
@@ -1407,7 +1407,7 @@
 		"quantity": 16,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "156"
 	},
 	{
@@ -1419,7 +1419,7 @@
 		"quantity": 31,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "157"
 	},
 	{
@@ -1431,7 +1431,7 @@
 		"quantity": 46,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "158"
 	},
 	{
@@ -1443,7 +1443,7 @@
 		"quantity": 61,
 		"isPopular": false,
 		"category": "women shoes",
-		"rating": 4.7,
+		"rating": 4,
 		"id": "159"
 	},
 	{

@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 import { IProductProps } from "../utils/interfaces";
 import styles from "../scss/modules/product.module.scss";
+import ProductRating from "./ProductRating";
 
 const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 	const { currency } = useSelector((state: RootState) => state.currency);
@@ -26,7 +27,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 				<h5 className="mb-1" style={{ fontSize: "14px" }}>
 					{product.name}
 				</h5>
-				<p style={{ fontSize: "14px" }}>
+				<p className="mb-0" style={{ fontSize: "14px" }}>
 					{currency.symbol}
 					{discountedPrice.toFixed(2)}
 					{product.discount > 0 && (
@@ -36,6 +37,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 						</span>
 					)}
 				</p>
+				<ProductRating rating={product.rating} />
 			</div>
 
 			{/* TAGS */}
