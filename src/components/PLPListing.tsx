@@ -1,41 +1,21 @@
-import { Col, Row } from "reactstrap";
-import { IPLPListingProps } from "../utils/interfaces";
-import Product from "./Product";
 import ReactPaginate from "react-paginate";
+import { IPLPListingProps } from "../utils/interfaces";
 import { usePagination } from "../hooks/usePagination";
-import styles from "../scss/modules/plplisting.module.scss";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import PLPListingProducts from "./PLPListingProducts";
+import PLPListingSort from "./PLPListingSort";
+import styles from "../scss/modules/plplisting.module.scss";
 
 const PLPListing: React.FunctionComponent<IPLPListingProps> = ({ products }) => {
-	const { currentItems, handlePageClick, pageCount } = usePagination(products);
+	const { currentItems, handlePageClick, pageCount, loading } = usePagination(products);
 
 	return (
 		<>
-			{/* Listing Name */}
-			<div className="d-flex align-items-center">
-				<p>
-					<span>All Products</span>
-					<span>(213 items)</span>
-				</p>
-				<div className="ms-auto">Sort By:</div>
-			</div>
+			<PLPListingSort length={products.length} />
+			{loading ? <div>Loading products...</div> : currentItems && <PLPListingProducts products={currentItems} />}
 
-			{/* Listing Products */}
-			<Row>
-				{currentItems?.map((item) => {
-					return (
-						<Col xs={6} md={3}>
-							<div className="pb-3">
-								<Product product={item} />
-							</div>
-						</Col>
-					);
-				})}
-			</Row>
-
-			{/* Pagination */}
 			<div className="pagination">
-				<ReactPaginate breakLabel="..." nextLabel={<FiChevronRight />} onPageChange={handlePageClick} pageCount={pageCount} previousLabel={<FiChevronLeft />} pageRangeDisplayed={2} />
+				<ReactPaginate nextLabel={<FiChevronRight />} previousLabel={<FiChevronLeft />} onPageChange={handlePageClick} pageCount={pageCount} />
 			</div>
 		</>
 	);

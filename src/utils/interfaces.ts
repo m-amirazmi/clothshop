@@ -123,3 +123,8 @@ export interface IFooterItem {
 export interface IPLPListingProps {
 	products: IProduct[];
 }
+
+export interface IPLPListingSortProps {
+	length: number;
+	name?: string;
+}
