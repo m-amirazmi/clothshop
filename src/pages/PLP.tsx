@@ -10,7 +10,7 @@ const PLP: React.FunctionComponent<IPLPProps> = (props) => {
 		<>
 			{/* Listing */}
 			<Container className="mt-5">
-				<Row className="px-2">
+				<Row className="px-2 px-md-0">
 					<Col md={9}>
 						<PLPListing products={products} />
 					</Col>
