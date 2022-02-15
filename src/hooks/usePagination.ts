@@ -16,7 +16,7 @@ export const usePagination = (products: IProduct[]) => {
 		setCurrentItems(sliced);
 		setPageCount(Math.ceil(products.length / itemsPerPage));
 		setLoading(false);
-	}, [itemOffset, itemsPerPage]);
+	}, [itemOffset, itemsPerPage, products]);
 
 	const handlePageClick = (event: any) => {
 		const newOffset = (event.selected * itemsPerPage) % products.length;

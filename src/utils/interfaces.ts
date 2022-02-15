@@ -127,4 +127,14 @@ export interface IPLPListingProps {
 export interface IPLPListingSortProps {
 	length: number;
 	name?: string;
+	sort: { id: string; name: string } | undefined;
+	setSort: React.Dispatch<
+		React.SetStateAction<
+			| {
+					id: string;
+					name: string;
+			  }
+			| undefined
+		>
+	>;
 }

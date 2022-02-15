@@ -1,0 +1,27 @@
+@import "../colors";
+.name {
+	font-weight: 500;
+}
+
+.length {
+	font-size: 14px;
+	margin-left: 8px;
+	color: #999;
+}
+
+.sort {
+	margin-left: auto;
+	font-size: 14px;
+	color: #999;
+	.sortDropdownToggle {
+		cursor: pointer;
+	}
+
+	.sortItem {
+		font-size: 12px;
+
+		&.active {
+			background-color: $accent-3-light;
+		}
+	}
+}
