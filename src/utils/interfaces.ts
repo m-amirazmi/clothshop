@@ -58,7 +58,7 @@ export interface IProduct {
 	discount: number;
 	isPopular: boolean;
 	image: string;
-	rating: number;
+	rating?: number;
 }
 
 export interface IProductProps {

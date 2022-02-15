@@ -37,7 +37,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 						</span>
 					)}
 				</p>
-				<ProductRating rating={product.rating} />
+				{product.rating && <ProductRating rating={product.rating} />}
 			</div>
 
 			{/* TAGS */}
