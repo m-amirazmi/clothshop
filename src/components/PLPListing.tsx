@@ -1,36 +1,13 @@
-import { useEffect, useState } from "react";
-import { Button, Col, Row } from "reactstrap";
-import { IPLPListingProps, IProduct } from "../utils/interfaces";
+import { Col, Row } from "reactstrap";
+import { IPLPListingProps } from "../utils/interfaces";
 import Product from "./Product";
+import ReactPaginate from "react-paginate";
+import { usePagination } from "../hooks/usePagination";
+import styles from "../scss/modules/plplisting.module.scss";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const PLPListing: React.FunctionComponent<IPLPListingProps> = ({ products }) => {
-	const [page, setPage] = useState(1);
-	const [totalPages, setTotalPages] = useState(1);
-	const [slice, setSlice] = useState(20);
-	const [start, setStart] = useState(1);
-	const [end, setEnd] = useState(20);
-	const [slicedProducts, setSlicedProducts] = useState<IProduct[]>([]);
-
-	useEffect(() => {
-		const totalProducts = products.length;
-		const roughTotalPages = totalProducts / slice;
-		setTotalPages(Math.ceil(roughTotalPages));
-	}, []);
-
-	useEffect(() => {
-		const slicePage = slice * page;
-		setStart(slicePage - slice + 1);
-		setEnd(slicePage);
-	}, [page]);
-
-	useEffect(() => {
-		const sliced = products.slice(start - 1, end);
-		setSlicedProducts(sliced);
-	}, [products, page]);
-
-	const handleSelectPage = (key: number) => setPage(key);
-
-	if (slicedProducts.length === 0) return null;
+	const { currentItems, handlePageClick, pageCount } = usePagination(products);
 
 	return (
 		<>
@@ -41,14 +18,13 @@ const PLPListing: React.FunctionComponent<IPLPListingProps> = ({ products }) => 
 					<span>(213 items)</span>
 				</p>
 				<div className="ms-auto">Sort By:</div>
-				<input onChange={({ target }) => setPage(+target.value)} />
 			</div>
 
 			{/* Listing Products */}
 			<Row>
-				{slicedProducts?.map((item) => {
+				{currentItems?.map((item) => {
 					return (
-						<Col md={3}>
+						<Col xs={6} md={3}>
 							<div className="pb-3">
 								<Product product={item} />
 							</div>
@@ -58,14 +34,8 @@ const PLPListing: React.FunctionComponent<IPLPListingProps> = ({ products }) => 
 			</Row>
 
 			{/* Pagination */}
-			<div>
-				{Array(totalPages)
-					.fill("")
-					.map((item, key) => (
-						<Button key={key} onClick={() => handleSelectPage(key + 2)}>
-							{key}
-						</Button>
-					))}
+			<div className="pagination">
+				<ReactPaginate breakLabel="..." nextLabel={<FiChevronRight />} onPageChange={handlePageClick} pageCount={pageCount} previousLabel={<FiChevronLeft />} pageRangeDisplayed={2} />
 			</div>
 		</>
 	);

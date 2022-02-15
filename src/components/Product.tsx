@@ -11,7 +11,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 
 	return (
 		<div className={styles.container}>
-			<div className={`mb-4 position-relative ${styles.imgContainer}`}>
+			<div className={`mb-3 position-relative ${styles.imgContainer}`}>
 				<img src={product.image} alt={product.name} className="w-100 rounded-3" />
 				<div className={styles.atcContainer}>
 					<div className="d-flex gap-2">
@@ -22,8 +22,10 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 					</div>
 				</div>
 			</div>
-			<div className="text-center">
-				<h5 style={{ fontSize: "16px" }}>{product.name}</h5>
+			<div className="text-start">
+				<h5 className="mb-1" style={{ fontSize: "14px" }}>
+					{product.name}
+				</h5>
 				<p style={{ fontSize: "14px" }}>
 					{currency.symbol}
 					{discountedPrice.toFixed(2)}
