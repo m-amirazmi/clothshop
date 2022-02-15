@@ -23,7 +23,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 					</div>
 				</div>
 			</div>
-			<div className="text-start">
+			<div className="text-start mb-2">
 				<h5 className="mb-1" style={{ fontSize: "14px" }}>
 					{product.name}
 				</h5>
