@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { useLocation } from "react-router-dom";
 import { RootState } from "../redux/store";
 import { IProduct } from "../utils/interfaces";
 

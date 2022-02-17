@@ -14,9 +14,14 @@ const BreadCrumbs: React.FunctionComponent = () => {
 		<div className="mb-4">
 			<div className={styles.container}>
 				{splitPathname.map((item) => {
-					if (item === "") return <span className="pe-0">Home</span>;
+					if (item === "")
+						return (
+							<span key={item} className="pe-0">
+								Home
+							</span>
+						);
 					return (
-						<span>
+						<span key={item}>
 							<FiChevronRight fontSize={14} className="mx-1" style={{ marginTop: "-2px" }} />
 							<span className={splitPathname.slice(-1)[0] === item ? styles.active : ""}>{titleCase(item)}</span>
 						</span>

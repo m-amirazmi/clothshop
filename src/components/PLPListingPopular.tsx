@@ -12,7 +12,7 @@ const PLPListingPopular: React.FunctionComponent = () => {
 				.filter((i) => i.isPopular)
 				.slice(0, 5)
 				.map((item) => (
-					<div className="mb-3">
+					<div key={item.id} className="mb-3">
 						<ProductSmall product={item} />
 					</div>
 				))}

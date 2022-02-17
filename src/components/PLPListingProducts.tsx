@@ -7,7 +7,7 @@ const PLPListingProducts: React.FunctionComponent<IPLPListingProps> = ({ product
 		<Row>
 			{products?.map((item) => {
 				return (
-					<Col xs={6} md={3}>
+					<Col key={item.id} xs={6} md={3}>
 						<div className="pb-3">
 							<Product product={item} />
 						</div>

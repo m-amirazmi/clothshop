@@ -22,7 +22,9 @@ const TopNav: React.FunctionComponent = () => {
 						</Col>
 
 						<Col xs="6" md="3">
-							<img src="/images/logo.svg" alt="Logo" width={"100%"} />
+							<Link to="/">
+								<img src="/images/logo.svg" alt="Logo" width={"100%"} />
+							</Link>
 						</Col>
 
 						<Col md="6" className="d-none d-md-block text-center">

@@ -80,7 +80,7 @@ const HomeByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categor
 	const renderMob = () => (
 		<Row className="px-2 d-md-none">
 			{categories.map((item, key) => (
-				<Col xs={12}>
+				<Col xs={12} key={key}>
 					<div className="pb-4">
 						<div
 							className={`${key % 2 === 0 ? "text-start" : "text-end"} w-100 rounded-2 p-4`}

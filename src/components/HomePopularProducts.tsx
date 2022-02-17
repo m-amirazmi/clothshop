@@ -16,7 +16,7 @@ const HomePopularProducts: React.FunctionComponent = () => {
 					.slice(0, 8)
 					.map((item) => {
 						return (
-							<Col xs={6} md={3}>
+							<Col key={item.id} xs={6} md={3}>
 								<div className="mb-4">
 									<Product product={item} />
 								</div>
