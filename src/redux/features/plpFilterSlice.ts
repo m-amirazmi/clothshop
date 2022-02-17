@@ -52,8 +52,11 @@ export const plpFilterSlice = createSlice({
 		brandsRemoveAll: (state) => {
 			state.brands = [];
 		},
+		priceSet: (state, { payload }: PayloadAction<{ min: number; max: number }>) => {
+			state.price = payload;
+		},
 	},
 });
 
-export const { filterInitial, categoriesSetSelected, brandsSetSelected, categoriesRemoveAll, brandsRemoveAll } = plpFilterSlice.actions;
+export const { filterInitial, categoriesSetSelected, brandsSetSelected, categoriesRemoveAll, brandsRemoveAll, priceSet } = plpFilterSlice.actions;
 export default plpFilterSlice.reducer;

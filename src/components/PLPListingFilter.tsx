@@ -23,7 +23,7 @@ const PLPListingFilter: React.FunctionComponent = () => {
 	};
 
 	return (
-		<div style={{ position: "sticky", top: "100px" }}>
+		<div>
 			<PLPListingFilterCheckbox name="Collection" section="categories" state={initialCategories} selected={categories} handleSelected={handleSelected} handleRemoveAll={handleRemoveAll} />
 			<PLPListingFilterCheckbox name="Brand" section="brands" state={initialBrands} selected={brands} handleSelected={handleSelected} handleRemoveAll={handleRemoveAll} />
 			<PLPListingFilterPrice />
