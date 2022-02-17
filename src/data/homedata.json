@@ -55,6 +55,8 @@
 			"price": 259.0,
 			"discount": 0.5,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/backpack_0.png"
 		},
 		{
@@ -63,6 +65,8 @@
 			"price": 259.0,
 			"discount": 0.5,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/backpack_1.png"
 		},
 		{
@@ -71,6 +75,8 @@
 			"price": 129.0,
 			"discount": 0,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/polo_shirt_1.png"
 		},
 		{
@@ -79,6 +85,8 @@
 			"price": 129.0,
 			"discount": 0,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/polo_shirt_2.png"
 		},
 		{
@@ -87,6 +95,8 @@
 			"price": 729.0,
 			"discount": 0.7,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/women_bag_1.png"
 		},
 		{
@@ -95,6 +105,8 @@
 			"price": 729.0,
 			"discount": 0.7,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/women_bag_2.png"
 		},
 		{
@@ -103,6 +115,8 @@
 			"price": 527.0,
 			"discount": 0.2,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/women_shoes_0.png"
 		},
 		{
@@ -111,6 +125,8 @@
 			"price": 527.0,
 			"discount": 0.2,
 			"isPopular": true,
+			"brand": "",
+			"category": "",
 			"image": "/images/popular/women_shoes_1.png"
 		}
 	],

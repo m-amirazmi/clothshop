@@ -14,7 +14,6 @@ export const useFilter = (products: IProduct[]) => {
 				.filter((item) => {
 					const netPrice = item.discount ? item.price - item.price * item.discount : item.price;
 					const currencyRated = netPrice * currency.rate;
-					console.log(currencyRated);
 					if (currencyRated > price.min && currencyRated < price.max) return item;
 				})
 				.filter((item) => {

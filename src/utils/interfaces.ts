@@ -59,8 +59,8 @@ export interface IProduct {
 	isPopular: boolean;
 	image: string;
 	rating?: number;
-	category?: string;
-	brand?: string;
+	category: string;
+	brand: string;
 }
 
 export interface IProductProps {
