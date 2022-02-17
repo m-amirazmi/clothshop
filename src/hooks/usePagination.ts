@@ -5,7 +5,7 @@ export const usePagination = (products: IProduct[]) => {
 	const [currentItems, setCurrentItems] = useState<IProduct[]>();
 	const [pageCount, setPageCount] = useState(0);
 	const [itemOffset, setItemOffset] = useState(0);
-	const [itemsPerPage, setItemsPerPage] = useState(20);
+	const [itemsPerPage, setItemsPerPage] = useState(40);
 	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {

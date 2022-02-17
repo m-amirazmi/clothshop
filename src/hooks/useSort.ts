@@ -8,8 +8,9 @@ export const useSort = (products: IProduct[]) => {
 	useEffect(() => {
 		let sortProducts: IProduct[] = [];
 		if (sort?.id) {
+			const copyProducts = [...products];
 			sortProducts = [
-				...products.sort((a, b): any => {
+				...copyProducts.sort((a, b): any => {
 					if (sort.id === "1") {
 						if (a.price > b.price) return 1;
 						if (a.price < b.price) return -1;
