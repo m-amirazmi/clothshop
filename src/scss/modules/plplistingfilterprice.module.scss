@@ -1,0 +1,51 @@
+@import "../colors";
+
+.filter {
+	.filterName {
+		font-size: 16px;
+		font-weight: 500;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		padding-bottom: 12px;
+
+		svg {
+			margin-left: auto;
+			font-size: 24px;
+		}
+	}
+
+	.inputContainer {
+		position: relative;
+		input {
+			background-color: #ebebf1;
+			border: #ebebf1;
+			text-align: end;
+		}
+
+		.symbol {
+			position: absolute;
+			top: 50%;
+			left: 12px;
+			font-size: 16px;
+			transform: translate(0%, -50%);
+			color: rgba(0, 0, 0, 0.6);
+		}
+	}
+
+	.prices {
+		margin-top: 12px;
+		font-size: 14px;
+		p {
+			margin-bottom: 8px;
+		}
+
+		.tag {
+			background: $accent-3-light;
+			display: inline;
+			padding: 4px 8px;
+			border-radius: 4px;
+		}
+	}
+}

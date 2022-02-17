@@ -1,88 +1,33 @@
-import { FiCheckSquare, FiChevronDown, FiSquare } from "react-icons/fi";
-import { products } from "../utils/helpers";
-import styles from "../scss/modules/plplistingfilter.module.scss";
-import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../redux/store";
+import { brandsRemoveAll, brandsSetSelected, categoriesRemoveAll, categoriesSetSelected } from "../redux/features/plpFilterSlice";
+import PLPListingFilterCheckbox from "./PLPListingFilterCheckbox";
+import PLPListingFilterPrice from "./PLPListingFilterPrice";
 
 const PLPListingFilter: React.FunctionComponent = () => {
-	const [categories, setCategories] = useState<string[]>();
-	const [brands, setBrands] = useState<string[]>();
-	const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-	const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
-
-	useEffect(() => {
-		const allCategories: string[] = [];
-		products.forEach((item) => {
-			if (!allCategories.includes(item.category)) allCategories.push(item.category);
-			return;
-		});
-
-		setCategories(allCategories);
-	}, [products]);
-
-	useEffect(() => {
-		const allBrands: string[] = [];
-		products.forEach((item) => {
-			if (!allBrands.includes(item.brand)) allBrands.push(item.brand);
-			return;
-		});
-
-		setBrands(allBrands);
-	}, [products]);
+	const { initialCategories, initialBrands, categories, brands } = useSelector((state: RootState) => state.filter);
+	const dispatch = useDispatch();
 
 	const handleSelected = (section: string, value: string) => {
-		let setState = setSelectedCategories;
-		let state: string[] = [];
-
-		if (section === "categories") {
-			setState = setSelectedCategories;
-			state = selectedCategories;
-		} else if (section === "brands") {
-			setState = setSelectedBrands;
-			state = selectedBrands;
-		}
-
-		const copy = [...state];
-		if (state.includes(value)) {
-			const remove = copy.filter((i) => i !== value);
-			setState(remove);
-		} else {
-			copy.push(value);
-			setState(copy);
-		}
+		let reducer = categoriesSetSelected;
+		if (section === "categories") reducer = categoriesSetSelected;
+		else if (section === "brands") reducer = brandsSetSelected;
+		dispatch(reducer(value));
 	};
 
-	const renderFilterCheckbox = (name: string, section: string, state: string[] | undefined, selectedState: string[]) => {
-		return (
-			<div className="mb-4">
-				<div className={styles.filterName}>
-					<p className="mb-0">{name}</p>
-					<FiChevronDown />
-				</div>
-				<div className={styles.filterCheck}>
-					{state?.map((item) => (
-						<div key={item} className={styles.filterCheckItem} onClick={() => handleSelected(section, item)}>
-							{!selectedState.includes(item) ? <FiSquare /> : <FiCheckSquare className="text-accent-3" />}
-							<span>{item}</span>
-						</div>
-					))}
-				</div>
-			</div>
-		);
+	const handleRemoveAll = (section: string) => {
+		let reducer = categoriesRemoveAll;
+		if (section === "categories") reducer = categoriesRemoveAll;
+		else if (section === "brands") reducer = brandsRemoveAll;
+		dispatch(reducer());
 	};
 
 	return (
-		<>
-			{renderFilterCheckbox("Collection", "categories", categories, selectedCategories)}
-			{renderFilterCheckbox("Brand", "brands", brands, selectedBrands)}
-
-			{/* BRAND */}
-			<div>
-				<div className={styles.filterName}>
-					<p className="mb-0">Price</p>
-					<FiChevronDown />
-				</div>
-			</div>
-		</>
+		<div style={{ position: "sticky", top: "100px" }}>
+			<PLPListingFilterCheckbox name="Collection" section="categories" state={initialCategories} selected={categories} handleSelected={handleSelected} handleRemoveAll={handleRemoveAll} />
+			<PLPListingFilterCheckbox name="Brand" section="brands" state={initialBrands} selected={brands} handleSelected={handleSelected} handleRemoveAll={handleRemoveAll} />
+			<PLPListingFilterPrice />
+		</div>
 	);
 };
 

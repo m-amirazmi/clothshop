@@ -45,6 +45,7 @@ $utilities: map-merge(
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
-
+$form-range-thumb-bg: $accent-3 !important;
+$form-range-thumb-focus-box-shadow: none;
 @import "_form";
 @import "../../node_modules/bootstrap/scss/bootstrap";

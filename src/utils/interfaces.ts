@@ -59,6 +59,8 @@ export interface IProduct {
 	isPopular: boolean;
 	image: string;
 	rating?: number;
+	category: string;
+	brand: string;
 }
 
 export interface IProductProps {
@@ -142,4 +144,29 @@ export interface IPLPListingSortProps {
 
 export interface ProductIRatingProps {
 	rating: number;
+}
+
+export interface IPLPFilterState {
+	price: {
+		min: number;
+		max: number;
+	};
+	initialCategories: string[];
+	initialBrands: string[];
+	categories: string[];
+	brands: string[];
+}
+
+export interface IPLPListingFilterCheckboxProps {
+	name: string;
+	section: string;
+	state: string[];
+	selected: string[];
+	handleSelected: (section: string, value: string) => void;
+	handleRemoveAll: (section: string) => void;
+}
+
+export interface IPLPState {
+	loading: boolean;
+	products: IProduct[];
 }
