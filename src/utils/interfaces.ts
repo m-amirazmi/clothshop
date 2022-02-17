@@ -155,6 +155,7 @@ export interface IPLPFilterState {
 	initialBrands: string[];
 	categories: string[];
 	brands: string[];
+	showMobileFilter: boolean;
 }
 
 export interface IPLPListingFilterCheckboxProps {

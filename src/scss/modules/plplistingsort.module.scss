@@ -17,6 +17,10 @@
 		cursor: pointer;
 	}
 
+	@media screen and (max-width: 579px) {
+		margin-left: 12px;
+	}
+
 	.sortItem {
 		font-size: 12px;
 
@@ -24,4 +28,11 @@
 			background-color: $accent-3-light;
 		}
 	}
+}
+
+.filter {
+	font-size: 14px;
+	color: #999;
+	margin-left: auto;
+	cursor: pointer;
 }

@@ -1,28 +1,20 @@
-.filterName {
-	font-size: 16px;
-	font-weight: 500;
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	padding-bottom: 12px;
-
-	svg {
-		margin-left: auto;
-		font-size: 24px;
-	}
-}
-
-.filterCheck {
-	margin-top: 12px;
-
-	.filterCheckItem {
-		font-size: 14px;
-		padding: 4px 0px;
-		text-transform: capitalize;
-		display: flex;
-		gap: 4px;
-		align-items: center;
-		cursor: pointer;
+@import "../colors";
+.filterContainer {
+	display: block;
+	@media screen and (max-width: 579px) {
+		display: none;
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		padding: 20px;
+		height: 100%;
+		width: 100%;
+		z-index: 100000;
+		border: 1px $accent-3-light solid;
+		background-color: $white;
+		overflow: scroll;
+		&.show {
+			display: block;
+		}
 	}
 }

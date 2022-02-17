@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { IPLPListingSortProps } from "../utils/interfaces";
 import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap";
-import { useState } from "react";
+import { FiChevronsDown, FiFilter } from "react-icons/fi";
+import { useDispatch } from "react-redux";
+import { setShowMobileFilter } from "../redux/features/plpFilterSlice";
 import styles from "../scss/modules/plplistingsort.module.scss";
-import { FiChevronsDown } from "react-icons/fi";
 
 const sortObj = [
 	{ id: "1", name: "Prices: Low to High" },
@@ -11,6 +13,7 @@ const sortObj = [
 
 const PLPListingSort: React.FunctionComponent<IPLPListingSortProps> = ({ length, name, sort, setSort }) => {
 	const [showSort, setShowSort] = useState(false);
+	const dispatch = useDispatch();
 
 	return (
 		<div className="d-flex align-items-center mb-3">
@@ -18,6 +21,10 @@ const PLPListingSort: React.FunctionComponent<IPLPListingSortProps> = ({ length,
 				<span className={styles.name}>All Products</span>
 				<span className={styles.length}>({length} items)</span>
 			</p>
+			<div className={`d-md-none ${styles.filter}`} onClick={() => dispatch(setShowMobileFilter())}>
+				<span className="me-1">Filter</span>
+				<FiFilter />
+			</div>
 			<div className={styles.sort}>
 				<Dropdown isOpen={showSort} toggle={() => setShowSort(!showSort)}>
 					<DropdownToggle data-toggle="dropdown" tag="span" className={styles.sortDropdownToggle}>

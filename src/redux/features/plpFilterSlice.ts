@@ -10,6 +10,7 @@ const initialState: IPLPFilterState = {
 	initialBrands: [],
 	categories: [],
 	brands: [],
+	showMobileFilter: false,
 };
 
 export const plpFilterSlice = createSlice({
@@ -55,8 +56,11 @@ export const plpFilterSlice = createSlice({
 		priceSet: (state, { payload }: PayloadAction<{ min: number; max: number }>) => {
 			state.price = payload;
 		},
+		setShowMobileFilter: (state) => {
+			state.showMobileFilter = !state.showMobileFilter;
+		},
 	},
 });
 
-export const { filterInitial, categoriesSetSelected, brandsSetSelected, categoriesRemoveAll, brandsRemoveAll, priceSet } = plpFilterSlice.actions;
+export const { filterInitial, categoriesSetSelected, brandsSetSelected, categoriesRemoveAll, brandsRemoveAll, priceSet, setShowMobileFilter } = plpFilterSlice.actions;
 export default plpFilterSlice.reducer;
