@@ -13,7 +13,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 	return (
 		<div className={styles.container}>
 			<div className={`mb-3 position-relative ${styles.imgContainer}`}>
-				<img src={product.image.includes("/images/products") ? product.image : `images/products/${product.category}/${product.image}`} alt={product.name} className="w-100 rounded-3" />
+				<img src={product.image} alt={product.name} className="w-100 rounded-3" />
 				<div className={styles.atcContainer}>
 					<div className="d-flex gap-2">
 						<button className="btn btn-white w-100">ADD TO CART</button>

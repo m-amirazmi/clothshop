@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+
+	.imgContainer {
+		width: 15%;
+	}
+
+	.detailContainer {
+		width: 80%;
+
+		h5 {
+			font-size: 14px;
+		}
+	}
+}

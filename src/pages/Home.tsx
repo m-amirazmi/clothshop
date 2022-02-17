@@ -10,14 +10,14 @@ import HomeNewsLetter from "../components/HomeNewsletter";
 import HomePopularProducts from "../components/HomePopularProducts";
 import HomePromises from "../components/HomePromises";
 import homedata from "../data/homedata.json";
-import productsdata from "../data/products.json";
+import { products } from "../utils/helpers";
 import { plpSetProducts } from "../redux/features/plpSlice";
 
 const Home: React.FunctionComponent = () => {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
-		dispatch(plpSetProducts(productsdata));
+		dispatch(plpSetProducts(products));
 	}, []);
 
 	return (

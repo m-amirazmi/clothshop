@@ -1,16 +1,20 @@
 @import "../colors";
+
 .filterContainer {
 	display: block;
+	border: 1px $accent-3-light solid;
+	padding: 20px;
+	border-radius: 4px;
+	user-select: none;
+
 	@media screen and (max-width: 579px) {
 		display: none;
 		position: fixed;
 		top: 0px;
 		right: 0px;
-		padding: 20px;
 		height: 100%;
 		width: 100%;
 		z-index: 100000;
-		border: 1px $accent-3-light solid;
 		background-color: $white;
 		overflow: scroll;
 		&.show {

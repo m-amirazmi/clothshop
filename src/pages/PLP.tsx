@@ -6,6 +6,8 @@ import PLPListingFilter from "../components/PLPListingFilter";
 import { products } from "../utils/helpers";
 import { filterInitial } from "../redux/features/plpFilterSlice";
 import { plpPending, plpSetProducts } from "../redux/features/plpSlice";
+import PLPListingPopular from "../components/PLPListingPopular";
+import BreadCrumbs from "../components/Breadcrumbs";
 
 const PLP: FunctionComponent = () => {
 	const dispatch = useDispatch();
@@ -20,6 +22,7 @@ const PLP: FunctionComponent = () => {
 		<>
 			{/* Listing */}
 			<Container className="mt-5">
+				<BreadCrumbs />
 				<Row className="px-2 px-md-0">
 					<Col md={9}>
 						<PLPListing />
@@ -28,6 +31,7 @@ const PLP: FunctionComponent = () => {
 					{/* This is sidebar */}
 					<Col md={3}>
 						<PLPListingFilter />
+						<PLPListingPopular />
 					</Col>
 				</Row>
 			</Container>

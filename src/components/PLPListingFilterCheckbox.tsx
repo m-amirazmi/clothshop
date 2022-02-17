@@ -7,7 +7,7 @@ const PLPListingFilterCheckbox: React.FunctionComponent<IPLPListingFilterCheckbo
 	const [show, setShow] = useState(true);
 
 	return (
-		<div className={`${styles.filter} mb-4`}>
+		<div className={`${styles.filter} mt-4`}>
 			<div className={styles.filterName} onClick={() => setShow(!show)}>
 				<p className="mb-0">{name}</p>
 				{show ? <FiChevronUp /> : <FiChevronDown />}

@@ -32,10 +32,10 @@ const PLPListingFilter: React.FunctionComponent = () => {
 				<span>Filter Listing</span>
 				<FiX className="ms-auto me-1" onClick={handleCloseFilter} />
 			</p>
+			<PLPListingFilterPrice />
 			<PLPListingFilterCheckbox name="Collection" section="categories" state={initialCategories} selected={categories} handleSelected={handleSelected} handleRemoveAll={handleRemoveAll} />
 			<PLPListingFilterCheckbox name="Brand" section="brands" state={initialBrands} selected={brands} handleSelected={handleSelected} handleRemoveAll={handleRemoveAll} />
-			<PLPListingFilterPrice />
-			<button className="btn btn-accent-3 my-4 w-100 text-white" onClick={handleCloseFilter}>
+			<button className="d-md-none btn btn-accent-3 my-4 w-100 text-white" onClick={handleCloseFilter}>
 				SAVE &amp; CLOSE
 			</button>
 		</div>
