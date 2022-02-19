@@ -5,9 +5,9 @@
 			"image": "/images/hero/2.webp",
 			"imageMob": "/images/hero/2-mob.webp",
 			"subtitle": "Top Branded",
-			"title": "Best Pants 2022",
-			"cta": "Shop Pants Now",
-			"category": "pants"
+			"title": "Best Backpack 2022",
+			"cta": "Shop Backpack Now",
+			"category": "backpack"
 		},
 		{
 			"id": "3",
@@ -23,9 +23,9 @@
 			"image": "/images/hero/4.webp",
 			"imageMob": "/images/hero/4-mob.webp",
 			"subtitle": "Top Branded",
-			"title": "Best Bags 2022",
-			"cta": "Shop Bags Now",
-			"category": "bags"
+			"title": "Best Women Bags 2022",
+			"cta": "Shop Women Bags Now",
+			"category": "women_bag"
 		}
 	],
 	"promises": [

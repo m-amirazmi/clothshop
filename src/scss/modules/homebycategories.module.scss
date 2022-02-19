@@ -22,6 +22,10 @@
 			width: 80%;
 		}
 	}
+	transition: all 0.25s ease-in-out;
+	&:hover {
+		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+	}
 }
 
 .webNonFeaturedContainerFirst {
@@ -47,6 +51,10 @@
 		img {
 			width: 160px;
 		}
+	}
+	transition: all 0.25s ease-in-out;
+	&:hover {
+		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 	}
 }
 
@@ -74,6 +82,10 @@
 			width: 140px;
 		}
 	}
+	transition: all 0.25s ease-in-out;
+	&:hover {
+		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+	}
 }
 
 .mobSubtitle {
@@ -87,4 +99,12 @@
 
 .mobImgContainer {
 	width: 140px;
+}
+
+.ctaContainer {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+	&:hover {
+		color: rgba(0, 0, 0, 0.6);
+	}
 }

@@ -5,10 +5,23 @@ import PLPListingFilterCheckbox from "./PLPListingFilterCheckbox";
 import PLPListingFilterPrice from "./PLPListingFilterPrice";
 import styles from "../scss/modules/plplistingfilter.module.scss";
 import { FiX } from "react-icons/fi";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const PLPListingFilter: React.FunctionComponent = () => {
 	const { initialCategories, initialBrands, categories, brands, showMobileFilter } = useSelector((state: RootState) => state.filter);
 	const dispatch = useDispatch();
+	const { search } = useLocation();
+
+	useEffect(() => {
+		dispatch(categoriesRemoveAll());
+		if (search) {
+			let getQueryParams = search.split("?")?.[1].split("=")[1];
+			if (getQueryParams.includes("_")) getQueryParams = getQueryParams.split("_").join(" ");
+			if (getQueryParams === "shirts") getQueryParams = "shirt";
+			dispatch(categoriesSetSelected(getQueryParams));
+		}
+	}, [search]);
 
 	const handleSelected = (section: string, value: string) => {
 		let reducer = categoriesSetSelected;

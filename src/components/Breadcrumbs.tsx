@@ -8,8 +8,6 @@ const BreadCrumbs: React.FunctionComponent = () => {
 
 	const splitPathname = pathname.split("/");
 
-	console.log(splitPathname.slice(-1));
-
 	return (
 		<div className="mb-4">
 			<div className={styles.container}>

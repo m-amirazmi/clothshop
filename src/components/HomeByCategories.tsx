@@ -20,18 +20,20 @@ const HomeByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categor
 		<Row className="d-none d-md-flex">
 			{featured?.map((item) => (
 				<Col key={item.id} md={4}>
-					<div className="pb-4">
-						<div className={`p-4 ${styles.webFeaturedContainer}`}>
-							<div className="mb-5">
-								<p className="mb-2 text-accent-3">{item.subtitle}</p>
-								<h5>{item.name}</h5>
-								<Link to={`/shop?category=${item.ctaLink}`}>{item.ctaText}</Link>
-							</div>
-							<div className={`p-1 ${styles.imgContainer}`}>
-								<img src={item.image} alt={item.name} />
+					<Link className={styles.ctaContainer} to={`/shop?category=${item.ctaLink}`}>
+						<div className="pb-4">
+							<div className={`p-4 ${styles.webFeaturedContainer}`}>
+								<div className="mb-5">
+									<p className="mb-2 text-accent-3">{item.subtitle}</p>
+									<h5>{item.name}</h5>
+									<Link to={`/shop?category=${item.ctaLink}`}>{item.ctaText}</Link>
+								</div>
+								<div className={`p-1 ${styles.imgContainer}`}>
+									<img src={item.image} alt={item.name} />
+								</div>
 							</div>
 						</div>
-					</div>
+					</Link>
 				</Col>
 			))}
 			<Col md={8}>
@@ -40,35 +42,39 @@ const HomeByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categor
 						if (key === 0 || key === 3)
 							return (
 								<Col key={key} md={7} className="h-100">
-									<div className="position-relative h-100 pb-4">
-										<div className={`p-4 ${styles.webNonFeaturedContainerFirst}`}>
-											<div className="mb-5">
-												<p className="mb-2 text-accent-3">{item.subtitle}</p>
-												<h5>{item.name}</h5>
-												<Link to={`/shop?category=${item.ctaLink}`}>{item.ctaText}</Link>
-											</div>
-											<div className={`p-3 ${styles.imgContainer}`}>
-												<img src={item.image} alt={item.name} />
+									<Link className={styles.ctaContainer} to={`/shop?category=${item.ctaLink}`}>
+										<div className="position-relative h-100 pb-4">
+											<div className={`p-4 ${styles.webNonFeaturedContainerFirst}`}>
+												<div className="mb-5">
+													<p className="mb-2 text-accent-3">{item.subtitle}</p>
+													<h5>{item.name}</h5>
+													<Link to={`/shop?category=${item.ctaLink}`}>{item.ctaText}</Link>
+												</div>
+												<div className={`p-3 ${styles.imgContainer}`}>
+													<img src={item.image} alt={item.name} />
+												</div>
 											</div>
 										</div>
-									</div>
+									</Link>
 								</Col>
 							);
 						else
 							return (
 								<Col key={key} md={5} className="h-100">
-									<div className="position-relative h-100 pb-4">
-										<div className={`p-4 ${styles.webNonFeaturedContainerSecond}`}>
-											<div className="mb-5 text-end">
-												<p className="mb-2 text-accent-3">{item.subtitle}</p>
-												<h5>{item.name}</h5>
-												<Link to={`/shop?category=${item.ctaLink}`}>{item.ctaText}</Link>
-											</div>
-											<div className={`p-3 ${styles.imgContainer}`}>
-												<img src={item.image} alt={item.name} />
+									<Link className={styles.ctaContainer} to={`/shop?category=${item.ctaLink}`}>
+										<div className="position-relative h-100 pb-4">
+											<div className={`p-4 ${styles.webNonFeaturedContainerSecond}`}>
+												<div className="mb-5 text-end">
+													<p className="mb-2 text-accent-3">{item.subtitle}</p>
+													<h5>{item.name}</h5>
+													<Link to={`/shop?category=${item.ctaLink}`}>{item.ctaText}</Link>
+												</div>
+												<div className={`p-3 ${styles.imgContainer}`}>
+													<img src={item.image} alt={item.name} />
+												</div>
 											</div>
 										</div>
-									</div>
+									</Link>
 								</Col>
 							);
 					})}
