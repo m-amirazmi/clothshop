@@ -57,7 +57,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/backpack_0.png"
+			"image": "/images/popular/backpack_0.webp"
 		},
 		{
 			"id": "2",
@@ -67,7 +67,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/backpack_1.png"
+			"image": "/images/popular/backpack_1.webp"
 		},
 		{
 			"id": "3",
@@ -77,7 +77,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/polo_shirt_1.png"
+			"image": "/images/popular/polo_shirt_1.webp"
 		},
 		{
 			"id": "4",
@@ -87,7 +87,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/polo_shirt_2.png"
+			"image": "/images/popular/polo_shirt_2.webp"
 		},
 		{
 			"id": "5",
@@ -97,7 +97,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/women_bag_1.png"
+			"image": "/images/popular/women_bag_1.webp"
 		},
 		{
 			"id": "6",
@@ -107,7 +107,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/women_bag_2.png"
+			"image": "/images/popular/women_bag_2.webp"
 		},
 		{
 			"id": "7",
@@ -117,7 +117,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/women_shoes_0.png"
+			"image": "/images/popular/women_shoes_0.webp"
 		},
 		{
 			"id": "8",
@@ -127,7 +127,7 @@
 			"isPopular": true,
 			"brand": "",
 			"category": "",
-			"image": "/images/popular/women_shoes_1.png"
+			"image": "/images/popular/women_shoes_1.webp"
 		}
 	],
 	"shopByCategories": [
@@ -136,7 +136,7 @@
 			"subtitle": "New Arrivals",
 			"name": "Men's Shirts Collections",
 			"ctaText": "See Collection",
-			"image": "/images/categories/shirt.png",
+			"image": "/images/categories/shirt.webp",
 			"ctaLink": "shirts",
 			"featured": true
 		},
@@ -145,7 +145,7 @@
 			"subtitle": "New Arrivals",
 			"name": "Men's Shoes Collection",
 			"ctaText": "See Collection",
-			"image": "/images/categories/men_shoes.png",
+			"image": "/images/categories/men_shoes.webp",
 			"ctaLink": "men_shoes",
 			"featured": false
 		},
@@ -154,7 +154,7 @@
 			"subtitle": "New Arrivals",
 			"name": "Women's Bags Collection",
 			"ctaText": "See Collection",
-			"image": "/images/categories/women_bag.png",
+			"image": "/images/categories/women_bag.webp",
 			"ctaLink": "women_bag",
 			"featured": false
 		},
@@ -163,7 +163,7 @@
 			"subtitle": "New Arrivals",
 			"name": "Women's Shoes Collection",
 			"ctaText": "See Collection",
-			"image": "/images/categories/women_shoes.png",
+			"image": "/images/categories/women_shoes.webp",
 			"ctaLink": "women_shoes",
 			"featured": false
 		},
@@ -172,7 +172,7 @@
 			"subtitle": "New Arrivals",
 			"name": "Backpacks Collection",
 			"ctaText": "See Collection",
-			"image": "/images/categories/backpack.png",
+			"image": "/images/categories/backpack.webp",
 			"ctaLink": "backpack",
 			"featured": false
 		}
@@ -180,42 +180,42 @@
 	"blogs": [
 		{
 			"id": "1",
-			"image": "/images/blogs/1.jpeg",
+			"image": "/images/blogs/1.webp",
 			"date": 1644676192000,
 			"title": "The fairycore trend is a 2021 fashion hit. Now influencers Bag up as fairies. porttitor ultricies libero.",
 			"ctaLink": "blogs/fairycore-trend"
 		},
 		{
 			"id": "2",
-			"image": "/images/blogs/2.jpeg",
+			"image": "/images/blogs/2.webp",
 			"date": 1644676192000,
 			"title": "TOP 10 most fashionable women's simmer bags on sale - the best deals! porttitor ultricies libero.",
 			"ctaLink": "blogs/10-most-fashionable"
 		},
 		{
 			"id": "3",
-			"image": "/images/blogs/3.jpeg",
+			"image": "/images/blogs/3.webp",
 			"date": 1644676192000,
 			"title": "Polish fashion, eco products and the national art seence. FMS moves to Wroclow  porttitor ultricies libero.",
 			"ctaLink": "blogs/polish-fashion"
 		},
 		{
 			"id": "4",
-			"image": "/images/blogs/4.jpeg",
+			"image": "/images/blogs/4.webp",
 			"date": 1644676192000,
 			"title": "Nulla dui diam, finibus quis neque sed, porttitor ultricies libero. porttitor ultricies libero.",
 			"ctaLink": "blogs/nulla-dui-diam"
 		},
 		{
 			"id": "5",
-			"image": "/images/blogs/5.jpeg",
+			"image": "/images/blogs/5.webp",
 			"date": 1644676192000,
 			"title": "Nulla dui diam, finibus quis neque sed, porttitor ultricies libero. porttitor ultricies libero.",
 			"ctaLink": "blogs/nulla-dui-diam"
 		},
 		{
 			"id": "6",
-			"image": "/images/blogs/6.jpeg",
+			"image": "/images/blogs/6.webp",
 			"date": 1644676192000,
 			"title": "Nulla dui diam, finibus quis neque sed, porttitor ultricies libero. porttitor ultricies libero.",
 			"ctaLink": "blogs/nulla-dui-diam"
@@ -224,35 +224,35 @@
 	"instagrams": [
 		{
 			"id": "1",
-			"image": "/images/ig/1.jpg"
+			"image": "/images/ig/1.webp"
 		},
 		{
 			"id": "2",
-			"image": "/images/ig/2.jpg"
+			"image": "/images/ig/2.webp"
 		},
 		{
 			"id": "3",
-			"image": "/images/ig/3.jpg"
+			"image": "/images/ig/3.webp"
 		},
 		{
 			"id": "4",
-			"image": "/images/ig/4.jpg"
+			"image": "/images/ig/4.webp"
 		},
 		{
 			"id": "5",
-			"image": "/images/ig/5.jpg"
+			"image": "/images/ig/5.webp"
 		},
 		{
 			"id": "6",
-			"image": "/images/ig/6.jpg"
+			"image": "/images/ig/6.webp"
 		},
 		{
 			"id": "8",
-			"image": "/images/ig/8.jpg"
+			"image": "/images/ig/8.webp"
 		},
 		{
 			"id": "7",
-			"image": "/images/ig/7.jpg"
+			"image": "/images/ig/7.webp"
 		}
 	],
 	"faqs": [

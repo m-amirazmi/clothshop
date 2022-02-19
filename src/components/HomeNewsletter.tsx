@@ -29,7 +29,7 @@ const HomeNewsLetter: React.FunctionComponent = (props) => {
 						</div>
 					</Col>
 					<Col md={6} className="p-0 d-none d-md-block">
-						<img src="/images/newsletter/1.jpeg" alt="Newsletter" className="w-100" />
+						<img src="/images/newsletter/1.webp" alt="Newsletter" className="w-100" />
 					</Col>
 				</Row>
 			</Container>

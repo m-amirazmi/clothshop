@@ -8,7 +8,7 @@ const HomeIcons: React.FunctionComponent = (props) => {
 					.fill("")
 					.map((item, key) => (
 						<Col key={key} xs={2} md={1}>
-							<img src={`/images/logos/${key + 1}.png`} alt="Logo" className="w-100" />
+							<img src={`/images/logos/${key + 1}.webp`} alt="Logo" className="w-100" />
 						</Col>
 					))}
 			</Row>
