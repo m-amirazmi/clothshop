@@ -87,21 +87,23 @@ const HomeByCategories: React.FunctionComponent<IByCategoriesProps> = ({ categor
 		<Row className="px-2 d-md-none">
 			{categories.map((item, key) => (
 				<Col xs={12} key={key}>
-					<div className="pb-4">
-						<div
-							className={`${key % 2 === 0 ? "text-start" : "text-end"} w-100 rounded-2 p-4`}
-							style={{ background: key === 0 ? "#FFF5F5" : key === 1 || key === 3 ? "#EDF0FF" : "#E9F0F3" }}
-						>
-							<p className={`mb-2 text-accent-3 ${styles.mobSubtitle}`}>{item.subtitle}</p>
-							<h5>{item.name}</h5>
-							<Link className={styles.link} to={`/shop?category=${item.ctaLink}`}>
-								{item.ctaText}
-							</Link>
-							<div className={`${key % 2 === 0 ? "text-end" : "text-start"} p-1 position-relative`} style={{ right: "0px" }}>
-								<img src={item.image} alt={item.name} className={styles.mobImgContainer} />
+					<Link className={styles.ctaContainer} to={`/shop?category=${item.ctaLink}`}>
+						<div className="pb-4">
+							<div
+								className={`${styles.webNonFeaturedContainerFirst} ${key % 2 === 0 ? "text-start" : "text-end"} w-100 rounded-2 p-4`}
+								style={{ background: key === 0 ? "#FFF5F5" : key === 1 || key === 3 ? "#EDF0FF" : "#E9F0F3" }}
+							>
+								<p className={`mb-2 text-accent-3 ${styles.mobSubtitle}`}>{item.subtitle}</p>
+								<h5>{item.name}</h5>
+								<Link className={styles.link} to={`/shop?category=${item.ctaLink}`}>
+									{item.ctaText}
+								</Link>
+								<div className={`${key % 2 === 0 ? "text-end" : "text-start"} p-1 position-relative`} style={{ right: "0px" }}>
+									<img src={item.image} alt={item.name} className={styles.mobImgContainer} />
+								</div>
 							</div>
 						</div>
-					</div>
+					</Link>
 				</Col>
 			))}
 		</Row>
