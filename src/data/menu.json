@@ -7,12 +7,6 @@
 			"search": ""
 		},
 		{
-			"id": "2",
-			"name": "New",
-			"pathname": "/shop",
-			"search": "?filter=new"
-		},
-		{
 			"id": "3",
 			"name": "Shop",
 			"pathname": "/shop",
