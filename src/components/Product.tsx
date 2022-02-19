@@ -41,7 +41,7 @@ const Product: React.FunctionComponent<IProductProps> = ({ product }) => {
 			</div>
 
 			{/* TAGS */}
-			{product.discount ? <span className={`bg-white text-danger px-2 py-1 rounded-2 ${styles.tagDiscount}`}>{product.discount * 100}% OFF</span> : null}
+			{product.discount ? <span className={`bg-white text-danger px-2 py-1 rounded-2 ${styles.tagDiscount}`}>{(product.discount * 100).toFixed(1)}% OFF</span> : null}
 			<span className={`d-md-none text-accent-3 ${styles.wishlist}`}>
 				<FiHeart />
 			</span>
