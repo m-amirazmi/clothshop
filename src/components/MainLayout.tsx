@@ -1,4 +1,5 @@
-import { Outlet } from "react-router-dom";
+import { useEffect } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import AnnouncementBar from "./AnnouncementBar";
 import Footer from "./Footer";
 import TopNav from "./TopNav";
@@ -6,6 +7,12 @@ import TopNav from "./TopNav";
 interface IMainLayoutProps {}
 
 const MainLayout: React.FunctionComponent<IMainLayoutProps> = (props) => {
+	const { pathname } = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
+
 	return (
 		<div>
 			<AnnouncementBar />
