@@ -19,6 +19,7 @@ const HomeNewsLetter: React.FunctionComponent = (props) => {
 										<Input name="email" placeholder="Enter your email" type="email" style={{ padding: "20px", border: "none", borderRadius: "8px" }} />
 									</FormGroup>
 									<button
+										aria-label="Submit"
 										className="btn btn-accent-3 text-white rounded-3"
 										style={{ fontSize: "20px", position: "absolute", right: "10px", top: "50%", transform: "translate(0%, -50%)" }}
 									>

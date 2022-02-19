@@ -2,8 +2,8 @@
 	"herobanner": [
 		{
 			"id": "2",
-			"image": "/images/hero/2.png",
-			"imageMob": "/images/hero/2-mob.png",
+			"image": "/images/hero/2.webp",
+			"imageMob": "/images/hero/2-mob.webp",
 			"subtitle": "Top Branded",
 			"title": "Best Pants 2022",
 			"cta": "Shop Pants Now",
@@ -11,8 +11,8 @@
 		},
 		{
 			"id": "3",
-			"image": "/images/hero/3.png",
-			"imageMob": "/images/hero/3-mob.png",
+			"image": "/images/hero/3.webp",
+			"imageMob": "/images/hero/3-mob.webp",
 			"subtitle": "Top Branded",
 			"title": "Best Shirts 2022",
 			"cta": "Shop Shirts Now",
@@ -20,8 +20,8 @@
 		},
 		{
 			"id": "4",
-			"image": "/images/hero/4.png",
-			"imageMob": "/images/hero/4-mob.png",
+			"image": "/images/hero/4.webp",
+			"imageMob": "/images/hero/4-mob.webp",
 			"subtitle": "Top Branded",
 			"title": "Best Bags 2022",
 			"cta": "Shop Bags Now",
